@@ -1,4 +1,5 @@
 using System;
+using Consts;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewExplosive", menuName = "Explosive", order = 0)]
@@ -10,4 +11,7 @@ public class TntSO : ScriptableObject
 
     [Header("GFX")] 
     public Material material;
+
+    [Header("Explosion strength")] 
+    public ExplosivesTypes explosiveType;
 }

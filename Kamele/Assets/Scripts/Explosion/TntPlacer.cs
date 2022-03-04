@@ -17,7 +17,6 @@ public class TntPlacer : MonoBehaviour
 
     private void Update()
     {
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
             PlaceTnt();
@@ -32,10 +31,5 @@ public class TntPlacer : MonoBehaviour
         {
           Instantiate(tnt, hitPoint.point, Quaternion.identity);
         }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(mousePos, tempPos);
     }
 }

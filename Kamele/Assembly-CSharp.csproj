@@ -52,13 +52,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Explosion\TntPlacer.cs" />
      <Compile Include="Assets\Scripts\Managers\PointsManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\BuildingSO.cs" />
      <Compile Include="Assets\Scripts\Destroyables\Building.cs" />
      <Compile Include="Assets\Scripts\Explosion\Tnt.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\TntSO.cs" />
-     <Compile Include="Assets\Scripts\Explosion\TntPlacer.cs" />
-     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Consts\ExplosivesTypes.cs" />
  <Reference Include="UnityEngine">
  <HintPath>G:/UnityEditor/2020.3.30f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
