@@ -6,6 +6,4 @@ public class Building : MonoBehaviour
     private BuildingSO buildingType;
 
     public int GetPoints() => buildingType.pointsForDestruction;
-    
-    
 }

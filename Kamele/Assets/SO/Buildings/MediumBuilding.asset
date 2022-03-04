@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf4fd8beeb540ea9f13370c55e81f51, type: 3}
-  m_Name: WeakTnt
+  m_Script: {fileID: 11500000, guid: b44169b731431e24682a257e3393cf63, type: 3}
+  m_Name: MediumBuilding
   m_EditorClassIdentifier: 
-  radius: 20
-  explosionForce: 2000
-  material: {fileID: 2100000, guid: 16ffa410bb9d15b47af70eac53eedc68, type: 2}
+  pointsForDestruction: 25
