@@ -52,7 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Tnt.cs" />
+     <Compile Include="Assets\Scripts\Explosion\Tnt.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\TntSO.cs" />
  <Reference Include="UnityEngine">
  <HintPath>G:/UnityEditor/2020.3.30f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
