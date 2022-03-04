@@ -1,19 +1,13 @@
 using System;
 using UnityEngine;
 
-namespace ScriptableObjects
+[CreateAssetMenu(fileName = "NewExplosive", menuName = "Explosive", order = 0)]
+public class TntSO : ScriptableObject
 {
-    [CreateAssetMenu(fileName = "NewExplosive", menuName = "Explosives", order = 0)]
-    public class TntSO : ScriptableObject
-    {
-        [Header("Params of tnt")]
-        public float radius;
+    [Header("Params of tnt")] 
+    public float radius;
+    public float explosionForce;
 
-        [SerializeField]
-        public float explosionForce;
-        
-        [Header("GFX")]
-        public Material material;
-        
-    }
+    [Header("GFX")] 
+    public Material material;
 }

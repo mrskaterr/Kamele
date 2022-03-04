@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using ScriptableObjects;
 using UnityEngine;
 
 public class Tnt : MonoBehaviour
@@ -15,6 +14,7 @@ public class Tnt : MonoBehaviour
     
     private Rigidbody _rb;
     private Material _material;
+    private Vector3 pos;
     private float _explForce;
     private float _radius;
     
@@ -22,6 +22,7 @@ public class Tnt : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _material = GetComponent<Material>();
+        pos = GetComponent<Transform>().position;
     }
 
     private void Start()
@@ -43,19 +44,25 @@ public class Tnt : MonoBehaviour
 
     private void Explode()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, _radius, destroyable);
+        Collider[] colliders = Physics.OverlapSphere(pos, _radius, destroyable);
+        Debug.Log(colliders.Length);
+        
         Destroy(gameObject);
+        
         foreach (var collider in colliders)
         {
-            if (collider != null)
-            {
-                collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, transform.position, _radius);
-            }
+            if (collider == null) return;
+
+            var points = collider.GetComponent<Building>().GetPoints();
+            PointsManager.Instance.AddPoints(points);
+            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
         }
+        
+        Debug.Log(PointsManager.Instance.GetPoints());
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(transform.position, _radius);
+        Gizmos.DrawWireSphere(pos, _radius);
     }
 }
