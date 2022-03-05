@@ -43,15 +43,17 @@ public class PlayerController : MonoBehaviour
             transform.Rotate(0,RotationSpeed * Input.GetAxis("Mouse X"),0);
         }
         //Zoom
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f )
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f  && MainCamera.localPosition.z>0)
         {
             MainCamera.localPosition-=new Vector3(0,0,ScrollPower);
+            transform.position-=new Vector3(0,5,0);
+            MainCamera.Rotate(-0.25f,0,0);
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0f )
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f  && MainCamera.localPosition.z<1200)
         {
             MainCamera.localPosition+=new Vector3(0,0,ScrollPower);
+            transform.position+=new Vector3(0,5,0);
+            MainCamera.Rotate(0.25f,0,0);
         }
-            
-
     }
 }
