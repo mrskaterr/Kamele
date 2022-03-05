@@ -15,11 +15,11 @@ C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65168
+62063
 Successfully changed project path to: C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001050 seconds.
+Registered in 0.001117 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.518 seconds
+- Completed reload, in  0.539 seconds
 Domain Reload Profiling:
-	ReloadAssembly (518ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (400ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (414ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (137ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (147ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (155ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (32ms)
 				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001875 seconds.
+Registered in 0.002025 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
+- Completed reload, in  0.898 seconds
 Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (713ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (169ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (170ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1946.
-Total: 2.822700 ms (FindLiveObjects: 0.162700 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.542600 ms  DeleteObjects: 0.060700 ms)
+Total: 2.630100 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.393000 ms  DeleteObjects: 0.054200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,235 +131,157 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/budynki/blok.fbx
-  artifactKey: Guid(b5bfa953ae121d942bc3306b9752ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/blok.fbx using Guid(b5bfa953ae121d942bc3306b9752ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debc1dbc1c7e16560b54d0be6de83086') in 0.130891 seconds 
+  path: Assets/miasto/modularne ulice
+  artifactKey: Guid(eda3ff205154ed644afea9abf0efd8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice using Guid(eda3ff205154ed644afea9abf0efd8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8626ad2fb119e191c044c3b4c6468db2') in 0.008347 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/budynki/biurowiec3.fbx
-  artifactKey: Guid(9490b1cf24f76df48bfbcaf1b8163e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec3.fbx using Guid(9490b1cf24f76df48bfbcaf1b8163e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9394daeb0ccaf321353061377652edfd') in 0.026593 seconds 
+  Time since last request: 15.263093 seconds.
+  path: Assets/miasto/modularne ulice/parking.fbx
+  artifactKey: Guid(e1cedf297e5ebe1459312356e0928862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/parking.fbx using Guid(e1cedf297e5ebe1459312356e0928862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b675289623354d5ba185f5fce3834510') in 0.129296 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/budynki/kiosk.fbx
-  artifactKey: Guid(10301bfa11f65934c812c7706010b1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk.fbx using Guid(10301bfa11f65934c812c7706010b1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604a900c7529f2cf504a1cef42be2c11') in 0.040301 seconds 
+  Time since last request: 3.300101 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie.fbx
+  artifactKey: Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie.fbx using Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81978e8d071825394735a11faa6b637') in 0.057375 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/budynki/kamieniczka.fbx
-  artifactKey: Guid(ed65eb63d971303428f6c662e0fc00c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kamieniczka.fbx using Guid(ed65eb63d971303428f6c662e0fc00c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e23bb1ed1273c10a9f5a6e299e3b824') in 0.035298 seconds 
+  Time since last request: 2.962907 seconds.
+  path: Assets/miasto/modularne ulice/ulica.fbx
+  artifactKey: Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica.fbx using Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a05b89afe31cfb6ac2e388394e668') in 0.019132 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/budynki/kamieniczka sklepik.fbx
-  artifactKey: Guid(ff4439124b2c08e4b977474885ba4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kamieniczka sklepik.fbx using Guid(ff4439124b2c08e4b977474885ba4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698bdbcaad171151b4d074e3e137f312') in 0.044959 seconds 
+  Time since last request: 1191.377633 seconds.
+  path: Assets/miasto/modularne ulice/parking.fbx
+  artifactKey: Guid(e1cedf297e5ebe1459312356e0928862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/parking.fbx using Guid(e1cedf297e5ebe1459312356e0928862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c5c18c9005cf407d442328bb4c4775') in 0.033959 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/budynki/kiosk duzy.fbx
-  artifactKey: Guid(db0f34c9cf4f5784eb3a3ae0e3bdafdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk duzy.fbx using Guid(db0f34c9cf4f5784eb3a3ae0e3bdafdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e20e25948fbe2c8b6798c0f783e3fa') in 0.040634 seconds 
+  Time since last request: 2.403761 seconds.
+  path: Assets/miasto/modularne ulice/pasy.fbx
+  artifactKey: Guid(c6b933f9871f5294b9e4331c071e6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/pasy.fbx using Guid(c6b933f9871f5294b9e4331c071e6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382f3bbfe9114299c37c554cde36b0c7') in 0.026305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/budynki/biurowiec2.fbx
-  artifactKey: Guid(0593a4a04f536b847b67ded96a79ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec2.fbx using Guid(0593a4a04f536b847b67ded96a79ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4436544f8d16fb23400161e07c4818a4') in 0.024148 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/miasto/modularne ulice/stacja benz z podstawka.fbx
+  artifactKey: Guid(b8c27501a5631bd42b8a79df623770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/stacja benz z podstawka.fbx using Guid(b8c27501a5631bd42b8a79df623770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9464e60906457a1ad510f649ab47b88a') in 0.488900 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/budynki/biurowiec4.fbx
-  artifactKey: Guid(144aaeaf29ea0344abe105322ebd487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec4.fbx using Guid(144aaeaf29ea0344abe105322ebd487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c56bc5a797649ab8b3822d0b17bf960') in 0.026111 seconds 
+  Time since last request: 0.000218 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie.fbx
+  artifactKey: Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie.fbx using Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c8ed23576ef37067f20eaa2956efb7') in 0.053156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/budynki/biurowiec1.fbx
-  artifactKey: Guid(b6edca5a58122db4a98053068902ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec1.fbx using Guid(b6edca5a58122db4a98053068902ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb02d1b621c076cc3851296064df77b') in 0.025023 seconds 
+  Time since last request: 0.000216 seconds.
+  path: Assets/miasto/modularne ulice/ulica.fbx
+  artifactKey: Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica.fbx using Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b640df28b9efb8e4ff3f8092d032f50a') in 0.019053 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/budynki/wiezowiec.fbx
-  artifactKey: Guid(1f83daecd463d28429bf42bef32350ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/wiezowiec.fbx using Guid(1f83daecd463d28429bf42bef32350ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd948bd67292f375c164db592cdb41') in 0.025086 seconds 
+  Time since last request: 192.655506 seconds.
+  path: Assets/miasto/modularne ulice/stacja benz z podstawka.fbx
+  artifactKey: Guid(b8c27501a5631bd42b8a79df623770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/stacja benz z podstawka.fbx using Guid(b8c27501a5631bd42b8a79df623770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b7e65682003dadfef9321c6686e926') in 0.505379 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.353165 seconds.
-  path: Assets/budynki/New Folder
-  artifactKey: Guid(ca35d1727b9e2a448a734e0e83aa4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder using Guid(ca35d1727b9e2a448a734e0e83aa4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8989a51d9c3c45f3ed2419703c6662a0') in 0.008385 seconds 
+  Time since last request: 115.773306 seconds.
+  path: Assets/miasto/modularne ulice/New Material.mat
+  artifactKey: Guid(2cc26ecc186202e40b0395247a10e281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/New Material.mat using Guid(2cc26ecc186202e40b0395247a10e281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e771afa66155bd18894ee8782ca037c3') in 0.022614 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.838831 seconds.
-  path: Assets/budynki/New Folder 1
-  artifactKey: Guid(354de6c1f72c5314796142d4a987e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 1 using Guid(354de6c1f72c5314796142d4a987e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827478e3ff782c339daf79279a7ee661') in 0.007413 seconds 
+  Time since last request: 6.022288 seconds.
+  path: Assets/miasto/modularne ulice/trawka.mat
+  artifactKey: Guid(2cc26ecc186202e40b0395247a10e281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/trawka.mat using Guid(2cc26ecc186202e40b0395247a10e281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3fecda77529c9ca0fecef44f82f482') in 0.030103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.609159 seconds.
-  path: Assets/budynki/New Folder 2
-  artifactKey: Guid(683a09a566bbc534faaf13ba28b92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 2 using Guid(683a09a566bbc534faaf13ba28b92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74103dc81fa12f456d87b1d5d3a65286') in 0.006877 seconds 
+  Time since last request: 104.656862 seconds.
+  path: Assets/miasto/modularne ulice/ulica.fbx
+  artifactKey: Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica.fbx using Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f73ffb328bc654c5a375143f5d06d75') in 0.026900 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.640420 seconds.
-  path: Assets/budynki/New Folder 3
-  artifactKey: Guid(4e34a1de25ca3c7448c7e8f39dfff549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 3 using Guid(4e34a1de25ca3c7448c7e8f39dfff549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c63992fdd2c33ae71a40beb12a81cf') in 0.007376 seconds 
+  Time since last request: 18.145824 seconds.
+  path: Assets/miasto/modularne ulice/ulica.fbx
+  artifactKey: Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica.fbx using Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c891e4281036807403cad36760e0f0') in 0.033893 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.366068 seconds.
-  path: Assets/budynki/New Folder 4
-  artifactKey: Guid(2e4635861fd28854f91fff7c4e9720e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 4 using Guid(2e4635861fd28854f91fff7c4e9720e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81e2da33e86bf0a0ac8448b31e8e111') in 0.007800 seconds 
+  Time since last request: 59.749272 seconds.
+  path: Assets/Alstra Infinite
+  artifactKey: Guid(78dda2a7182573f448a20876d7d63e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite using Guid(78dda2a7182573f448a20876d7d63e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7b3d23532101e698d9d0e173747379') in 0.008533 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.433706 seconds.
-  path: Assets/budynki/New Folder 5
-  artifactKey: Guid(76cd618bb41c58245ae54549664d9e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 5 using Guid(76cd618bb41c58245ae54549664d9e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5875edabb809e702c20fff904b346d40') in 0.008222 seconds 
+  Time since last request: 9.247270 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models
+  artifactKey: Guid(8e8cf2be152b5714eb43b23ba091ed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models using Guid(8e8cf2be152b5714eb43b23ba091ed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be711ca3f7114e668f368d5aee602610') in 0.007077 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.894902 seconds.
-  path: Assets/budynki/New Folder 6
-  artifactKey: Guid(6bbf4b7e9f5bd0b4493fcfbf0320d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 6 using Guid(6bbf4b7e9f5bd0b4493fcfbf0320d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8b98029ff30c12bafff899d37c5d9e') in 0.007615 seconds 
+  Time since last request: 0.194231 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Ambulance-Truck.fbx
+  artifactKey: Guid(509eb149074154547a6b7a4a46184d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Ambulance-Truck.fbx using Guid(509eb149074154547a6b7a4a46184d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f385826e96065b684bb293686431b87d') in 0.021128 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.773779 seconds.
-  path: Assets/budynki/New Folder 7
-  artifactKey: Guid(72d4d59ef6d3d8b4b8e5b02945fe7146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 7 using Guid(72d4d59ef6d3d8b4b8e5b02945fe7146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813f7a58fd17bbfe3f6cf5ae80152d8a') in 0.007800 seconds 
+  Time since last request: 0.000251 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV3.fbx
+  artifactKey: Guid(08646bcb6ab0691419816561264e749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV3.fbx using Guid(08646bcb6ab0691419816561264e749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd5472137e073a1b471d5b2fc77894') in 0.035470 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.776054 seconds.
-  path: Assets/budynki/New Folder 8
-  artifactKey: Guid(a5c41eae2d439504c88d3dca750d963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 8 using Guid(a5c41eae2d439504c88d3dca750d963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e88c692ce7040101cb322d93e5948e') in 0.007013 seconds 
+  Time since last request: 0.000289 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/IceCream-Truck.fbx
+  artifactKey: Guid(eafc7f334aca16745a4dd55164b81b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/IceCream-Truck.fbx using Guid(eafc7f334aca16745a4dd55164b81b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4290bae0be342d2664681165c96c7cb9') in 0.035678 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.399818 seconds.
-  path: Assets/budynki/New Folder 9
-  artifactKey: Guid(3a14cc9f8bff7fe4e9c037084a385f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/New Folder 9 using Guid(3a14cc9f8bff7fe4e9c037084a385f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0cb486093c3a4e0be462a65d5b6e8a') in 0.007480 seconds 
+  Time since last request: 0.000233 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/SwiftoV1.fbx
+  artifactKey: Guid(b0034cacfe8872c4190c1cd859e223e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/SwiftoV1.fbx using Guid(b0034cacfe8872c4190c1cd859e223e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c1db5a2550b1492e22f0c49892e4f') in 0.037463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 406.073417 seconds.
-  path: Assets/budynki/kiosk duzy.fbx
-  artifactKey: Guid(db0f34c9cf4f5784eb3a3ae0e3bdafdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk duzy.fbx using Guid(db0f34c9cf4f5784eb3a3ae0e3bdafdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfc7c1580cea9476364a05807a509fc') in 0.054124 seconds 
+  Time since last request: 0.000297 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV1.fbx
+  artifactKey: Guid(5f3b2ab4b40ba22458b06d9ed4110ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV1.fbx using Guid(5f3b2ab4b40ba22458b06d9ed4110ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a623c931b3544ec7a4bcf77a5cb51e2') in 0.029969 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.845605 seconds.
-  path: Assets/budynki/kamieniczka
-  artifactKey: Guid(ca35d1727b9e2a448a734e0e83aa4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kamieniczka using Guid(ca35d1727b9e2a448a734e0e83aa4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec9c40c329bf743579730cc0d7113e7') in 0.006654 seconds 
+  Time since last request: 0.000240 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV2.fbx
+  artifactKey: Guid(5f9e095c9f9a5274b89dc525182debae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV2.fbx using Guid(5f9e095c9f9a5274b89dc525182debae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef92cab8e4f32860ca92e38b8a990979') in 0.034991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.452001 seconds.
-  path: Assets/budynki/kiosk duzy
-  artifactKey: Guid(354de6c1f72c5314796142d4a987e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk duzy using Guid(354de6c1f72c5314796142d4a987e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3505cb845647e85b560cdfb2edd793bd') in 0.002252 seconds 
+  Time since last request: 0.000247 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/SwiftoV2.fbx
+  artifactKey: Guid(32e9cc17e727e984091f5a44f796fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/SwiftoV2.fbx using Guid(32e9cc17e727e984091f5a44f796fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb35616c9bbd2f739b29c089c72ef72') in 0.027982 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.674504 seconds.
-  path: Assets/budynki/kiosk
-  artifactKey: Guid(683a09a566bbc534faaf13ba28b92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk using Guid(683a09a566bbc534faaf13ba28b92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371ff95d0feec1ceb8d0c79b5bf22d6a') in 0.002768 seconds 
+  Time since last request: 0.000180 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/EL-Truck.fbx
+  artifactKey: Guid(80fed9be90739094a960062ed9da196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/EL-Truck.fbx using Guid(80fed9be90739094a960062ed9da196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c48512ae38e023bb7c12512dc9fc6') in 0.021772 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.588652 seconds.
-  path: Assets/budynki/wiezowiec
-  artifactKey: Guid(4e34a1de25ca3c7448c7e8f39dfff549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/wiezowiec using Guid(4e34a1de25ca3c7448c7e8f39dfff549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13370bb857b44e042c89e8648302c7d') in 0.002602 seconds 
+  Time since last request: 0.000165 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV4.fbx
+  artifactKey: Guid(330758c92d218b544b9bf32c24ddb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/MuscleCarV4.fbx using Guid(330758c92d218b544b9bf32c24ddb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be4ae05cd52eb4720e83dc020a65aae') in 0.020665 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.311852 seconds.
-  path: Assets/budynki/biurowiec1
-  artifactKey: Guid(2e4635861fd28854f91fff7c4e9720e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec1 using Guid(2e4635861fd28854f91fff7c4e9720e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7b486546b141085b2913314113d8f1') in 0.002667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.968848 seconds.
-  path: Assets/budynki/biurowiec2
-  artifactKey: Guid(76cd618bb41c58245ae54549664d9e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec2 using Guid(76cd618bb41c58245ae54549664d9e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c576d32d633f5e441d6c98499c7de2d5') in 0.002512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.281034 seconds.
-  path: Assets/budynki/biurowiec3
-  artifactKey: Guid(6bbf4b7e9f5bd0b4493fcfbf0320d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec3 using Guid(6bbf4b7e9f5bd0b4493fcfbf0320d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214ed4b3a8a1b62100ab9b0aaa3fe1d2') in 0.002590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.741226 seconds.
-  path: Assets/budynki/biurowiec4
-  artifactKey: Guid(72d4d59ef6d3d8b4b8e5b02945fe7146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec4 using Guid(72d4d59ef6d3d8b4b8e5b02945fe7146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac35a51c252d33392bc4fcf6484bb132') in 0.002532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.905047 seconds.
-  path: Assets/budynki/blok
-  artifactKey: Guid(a5c41eae2d439504c88d3dca750d963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/blok using Guid(a5c41eae2d439504c88d3dca750d963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1767215d3ba17b8738a2bfd192f32b') in 0.002504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 344.358159 seconds.
-  path: Assets/budynki/biurowiec3/D_biurowiec3.fbx
-  artifactKey: Guid(b925e5c4262718849812ea4d2d8c589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec3/D_biurowiec3.fbx using Guid(b925e5c4262718849812ea4d2d8c589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4352ced06ab1b202f8696897d6832b9b') in 0.373121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.877142 seconds.
-  path: Assets/budynki/biurowiec4/D_biurowiec4.fbx
-  artifactKey: Guid(fe0aad660db2731468d2b1fc689c62eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec4/D_biurowiec4.fbx using Guid(fe0aad660db2731468d2b1fc689c62eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966b43a8019a67d35f3ecbe6e64ec65') in 0.270521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.336887 seconds.
-  path: Assets/budynki/biurowiec1/D_biurowiec1.fbx
-  artifactKey: Guid(acccbb018dd49104f8a7d1cac7eab068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec1/D_biurowiec1.fbx using Guid(acccbb018dd49104f8a7d1cac7eab068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b90c53a980e8abecb8adcbe7565a436') in 0.219713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.871502 seconds.
-  path: Assets/budynki/biurowiec2/D_biurowiec2.fbx
-  artifactKey: Guid(e186d9e660e34a641b805f6c7f0af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/biurowiec2/D_biurowiec2.fbx using Guid(e186d9e660e34a641b805f6c7f0af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2299aebb38f403c565716f8c58d301d3') in 0.256004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.331965 seconds.
-  path: Assets/budynki/blok/D_blok.fbx
-  artifactKey: Guid(b83fb0dcb5fcea54d9b28f046a3d5ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/blok/D_blok.fbx using Guid(b83fb0dcb5fcea54d9b28f046a3d5ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2326b1619b349dda01780ef8a0c2ec') in 0.331837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.192660 seconds.
-  path: Assets/budynki/kamieniczka/D_kamieniczka.fbx
-  artifactKey: Guid(f1622fbc20b489746a1ef84d8ed8dc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kamieniczka/D_kamieniczka.fbx using Guid(f1622fbc20b489746a1ef84d8ed8dc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7005f088ee9c6d9215b4290c211c195c') in 0.319004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.186060 seconds.
-  path: Assets/budynki/kiosk/D_kiosk.fbx
-  artifactKey: Guid(03be29b6cf51d944cba9e0198a15f64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk/D_kiosk.fbx using Guid(03be29b6cf51d944cba9e0198a15f64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68241aa8e808f079dc779916baa55f7') in 0.237490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.715197 seconds.
-  path: Assets/budynki/kiosk duzy/D_kiosk duzy.fbx
-  artifactKey: Guid(4d375ca131084e84ea9e40eb34a68bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/kiosk duzy/D_kiosk duzy.fbx using Guid(4d375ca131084e84ea9e40eb34a68bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b286b3e34f2d4cd911131f4f6c3596d') in 0.382878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.778853 seconds.
-  path: Assets/budynki/wiezowiec/D_wiezowiec.fbx
-  artifactKey: Guid(299901d6e04563547ab6e0ae71dc2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/budynki/wiezowiec/D_wiezowiec.fbx using Guid(299901d6e04563547ab6e0ae71dc2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab12e3cb3a9ecce5ad9a7448997159fd') in 0.567485 seconds 
+  Time since last request: 0.000209 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Post-Truck.fbx
+  artifactKey: Guid(cc9ba14dc67c6e7488b92fa910c75eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Post-Truck.fbx using Guid(cc9ba14dc67c6e7488b92fa910c75eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28ec373356fa1e91a172ca0d043e52a') in 0.022799 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
