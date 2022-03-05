@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class Tnt : MonoBehaviour
@@ -8,18 +10,13 @@ public class Tnt : MonoBehaviour
 
     [SerializeField] 
     private TntSO tntSO;
-
-    private Rigidbody _rb;
-    private Material _material;
+    
     private Vector3 pos;
-    private ExplosivesTypes _explosiveType;
     private float _explForce;
     private float _radius;
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody>();
-        _material = GetComponent<Material>();
         pos = GetComponent<Transform>().position;
     }
 
@@ -30,53 +27,57 @@ public class Tnt : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) Explode();
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Explode();
+        }
     }
 
     private void SetPrefab()
     {
+        gameObject.GetComponent<Renderer>().sharedMaterial = tntSO.material;
         _radius = tntSO.radius;
-        _material = tntSO.material;
         _explForce = tntSO.explosionForce;
-        _explosiveType = tntSO.explosiveType;
     }
 
-    private void Explode()
+    public void Explode()
     {
+        Debug.Log("explosion");
         var colliders = Physics.OverlapSphere(pos, _radius, destroyable);
 
-        Destroy(gameObject);
+       // Destroy(gameObject);
 
         #region points system
 
         foreach (var collider in colliders)
         {
-            if (collider == null) return;
             if (collider.GetComponent<Building>())
             {
                 Debug.Log(collider.name);
-                PointsManager.Instance.AddPoints(collider.GetComponent<Building>().GetPoints());
-                collider.GetComponent<Building>().SetDestroyedState();
+                GameManager.Instance.HitBuilding(collider);
             }
         }
 
         #endregion
 
+        Debug.Log("huj");
         #region explosion system
 
         foreach (var collider in colliders)
         {
+<<<<<<< HEAD
             if (collider == null) return;
             collider.GetComponent<Bot>()?.RagdollActivate();
             
+=======
+>>>>>>> wojtasxd
             if (!collider.GetComponent<Rigidbody>()) collider.gameObject.AddComponent<Rigidbody>();
 
             collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
         }
 
         #endregion
-
-        Debug.Log(PointsManager.Instance.GetPoints());
+        Debug.Log("cipa");
     }
 
     private void OnDrawGizmos()

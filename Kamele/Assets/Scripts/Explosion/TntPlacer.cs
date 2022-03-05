@@ -2,21 +2,28 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TntPlacer : MonoBehaviour
 {
-    [SerializeField] 
-    private GameObject tnt;
+    [SerializeField] private Camera cam;
 
-    [SerializeField]
-    private Camera cam;
-    
+    [SerializeField] private LayerMask uiLayer;
+
+
     private void Update()
     {
-        
-        if (Input.GetMouseButtonDown(0))
+
+        if (EventSystem.current.IsPointerOverGameObject())
         {
-            PlaceTnt();
+            // Do nothing
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0) && GameManager.Instance.CheckIfTntCanBePlaced())
+            {
+                PlaceTnt();
+            }
         }
     }
 
@@ -26,7 +33,9 @@ public class TntPlacer : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hitPoint, Mathf.Infinity))
         {
-          Instantiate(tnt, hitPoint.point, Quaternion.identity);
+            Instantiate(GameManager.Instance.GetCurrentPrefab(), hitPoint.point, Quaternion.identity);
+            GameManager.Instance.DecreaseQuantity();
+            HUDManager.Instance.UpdateTMP();
         }
     }
 }

@@ -14,6 +14,8 @@ public class HUDManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI strongTMP;
 
+    [SerializeField] 
+    private TextMeshProUGUI pointsTMP;
     
     private void Awake()
     {
@@ -24,18 +26,34 @@ public class HUDManager : MonoBehaviour
         else Instance = this;
     }
 
-    public void UpdateWeakTMP(int value)
+    private void Start()
+    {
+        UpdateTMP();
+        UpdatePointsTMP(0);
+    }
+
+    public void UpdateTMP()
+    {
+        UpdateWeakTMP(GameManager.Instance.GetQuantity(ExplosivesTypes.WEAK));
+        UpdateMidTMP(GameManager.Instance.GetQuantity(ExplosivesTypes.MID));
+        UpdateStrongTMP(GameManager.Instance.GetQuantity(ExplosivesTypes.STRONG));
+    }
+    public void UpdatePointsTMP(int value)
+    {
+        pointsTMP.text = "Points: " + value;
+    }
+    
+    private void UpdateWeakTMP(int value)
     {
         weakTMP.text = value.ToString();
     }
-    
-    public void UpdateMidTMP(int value)
+    private void UpdateMidTMP(int value)
     {
         midTMP.text = value.ToString();
     }
-    
-    public void UpdateStrongTMP(int value)
+    private void UpdateStrongTMP(int value)
     {
         strongTMP.text = value.ToString();
     }
+   
 }
