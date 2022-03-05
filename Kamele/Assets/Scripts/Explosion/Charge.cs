@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Tnt : MonoBehaviour
+public class Charge : MonoBehaviour
 {
     [Header("Which layers to destroy")]
     [SerializeField]
@@ -8,18 +8,13 @@ public class Tnt : MonoBehaviour
 
     [SerializeField] 
     private TntSO tntSO;
-
-    private Rigidbody _rb;
-    private Material _material;
+    
     private Vector3 pos;
-    private ExplosivesTypes _explosiveType;
     private float _explForce;
     private float _radius;
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody>();
-        _material = GetComponent<Material>();
         pos = GetComponent<Transform>().position;
     }
 
@@ -35,10 +30,9 @@ public class Tnt : MonoBehaviour
 
     private void SetPrefab()
     {
+        gameObject.GetComponent<Renderer>().sharedMaterial = tntSO.material;
         _radius = tntSO.radius;
-        _material = tntSO.material;
         _explForce = tntSO.explosionForce;
-        _explosiveType = tntSO.explosiveType;
     }
 
     private void Explode()
@@ -56,6 +50,7 @@ public class Tnt : MonoBehaviour
             {
                 Debug.Log(collider.name);
                 PointsManager.Instance.AddPoints(collider.GetComponent<Building>().GetPoints());
+                HUDManager.Instance.UpdatePointsTMP(PointsManager.Instance.GetPoints());
                 collider.GetComponent<Building>().SetDestroyedState();
             }
         }
@@ -70,12 +65,10 @@ public class Tnt : MonoBehaviour
 
             if (!collider.GetComponent<Rigidbody>()) collider.gameObject.AddComponent<Rigidbody>();
 
-            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
+            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, .1f);
         }
 
         #endregion
-
-        Debug.Log(PointsManager.Instance.GetPoints());
     }
 
     private void OnDrawGizmos()

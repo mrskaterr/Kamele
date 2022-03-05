@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbf4fd8beeb540ea9f13370c55e81f51, type: 3}
-  m_Name: WeakTnt
+  m_Name: StrongCharge
   m_EditorClassIdentifier: 
-  radius: 20
-  explosionForce: 500
+  radius: 50
+  explosionForce: 750
   material: {fileID: 2100000, guid: 16ffa410bb9d15b47af70eac53eedc68, type: 2}
-  explosiveType: 0
+  explosiveType: 2

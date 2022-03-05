@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1685392400826898129}
   - component: {fileID: 1685392400826898142}
   m_Layer: 0
-  m_Name: Tnt
+  m_Name: StrongCharge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,4 +128,4 @@ MonoBehaviour:
   destroyable:
     serializedVersion: 2
     m_Bits: 64
-  tntSO: {fileID: 11400000, guid: f07f9435997028a43917608a5a115ddd, type: 2}
+  tntSO: {fileID: 11400000, guid: 9f30f001e788e104c8ddb2cf3e72f3fd, type: 2}
