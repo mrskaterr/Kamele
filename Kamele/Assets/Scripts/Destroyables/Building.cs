@@ -5,5 +5,17 @@ public class Building : MonoBehaviour
     [SerializeField]
     private BuildingSO buildingType;
 
-    public int GetPoints() => buildingType.pointsForDestruction;
+    private bool isDestroyed;
+
+    public int GetPoints()
+    {
+        if (!isDestroyed) return buildingType.pointsForDestruction;
+        
+        return 0;
+    }
+
+    public void SetDestroyedState()
+    {
+        isDestroyed = true;
+    }
 }

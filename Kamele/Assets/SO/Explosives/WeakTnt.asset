@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: WeakTnt
   m_EditorClassIdentifier: 
   radius: 20
-  explosionForce: 2000
+  explosionForce: 500
   material: {fileID: 2100000, guid: 16ffa410bb9d15b47af70eac53eedc68, type: 2}
+  explosiveType: 0

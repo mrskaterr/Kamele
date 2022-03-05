@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Consts;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -34,7 +33,7 @@ public class GameManager : MonoBehaviour
         explosivesQuantity[ExplosivesTypes.STRONG] = strongQuantity;
     }
 
-    public void ChangeQuantity(ExplosivesTypes explosiveType)
+    public void DecreaseQuantity(ExplosivesTypes explosiveType)
     {
         explosivesQuantity[explosiveType]--;
     }

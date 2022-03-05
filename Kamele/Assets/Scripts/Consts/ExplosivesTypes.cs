@@ -1,9 +1,6 @@
-namespace Consts
+public enum ExplosivesTypes
 {
-    public enum ExplosivesTypes
-    {
-        WEAK,
-        MID,
-        STRONG
-    }
+    WEAK,
+    MID,
+    STRONG
 }
