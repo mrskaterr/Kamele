@@ -67,7 +67,8 @@ public class Tnt : MonoBehaviour
         foreach (var collider in colliders)
         {
             if (collider == null) return;
-
+            collider.GetComponent<Bot>()?.RagdollActivate();
+            
             if (!collider.GetComponent<Rigidbody>()) collider.gameObject.AddComponent<Rigidbody>();
 
             collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
