@@ -1,6 +1,7 @@
 using UnityEngine;
+using Quaternion = System.Numerics.Quaternion;
 
-public class Charge : MonoBehaviour
+public class Tnt : MonoBehaviour
 {
     [Header("Which layers to destroy")]
     [SerializeField]
@@ -38,34 +39,44 @@ public class Charge : MonoBehaviour
     private void Explode()
     {
         var colliders = Physics.OverlapSphere(pos, _radius, destroyable);
-
         Destroy(gameObject);
+
+        foreach (var collider in colliders)
+        {
+            if (collider == null) return;
+            var building = collider.GetComponent<Building>();
+            var pos = building.GetPosition();
+            var rot = building.GetRotation();
+            Destroy(collider.gameObject);
+            Instantiate(GameManager.Instance.GetBuildingPrefab(building.GetBuildingType()), pos, rot);
+        }
+        var colliders2 = Physics.OverlapSphere(pos, _radius, destroyable);
 
         #region points system
 
-        foreach (var collider in colliders)
+        /*foreach (var collider in colliders)
         {
             if (collider == null) return;
             if (collider.GetComponent<Building>())
             {
                 Debug.Log(collider.name);
-                PointsManager.Instance.AddPoints(collider.GetComponent<Building>().GetPoints());
-                HUDManager.Instance.UpdatePointsTMP(PointsManager.Instance.GetPoints());
-                collider.GetComponent<Building>().SetDestroyedState();
+                GameManager.Instance.HitBuilding(collider);
             }
-        }
+        }*/
 
         #endregion
 
         #region explosion system
 
-        foreach (var collider in colliders)
+        foreach (var collider in colliders2)
         {
             if (collider == null) return;
-
+            if (collider.GetComponent<MeshCollider>())
+            {
+                collider.GetComponent<MeshCollider>().isTrigger = false;
+            }
             if (!collider.GetComponent<Rigidbody>()) collider.gameObject.AddComponent<Rigidbody>();
-
-            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, .1f);
+            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
         }
 
         #endregion

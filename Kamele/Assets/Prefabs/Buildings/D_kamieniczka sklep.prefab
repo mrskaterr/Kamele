@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 562526760591176587}
   - component: {fileID: 5568980938226347735}
   - component: {fileID: 2059328121}
+  - component: {fileID: 3397189090667070291}
   m_Layer: 6
   m_Name: budynek nr.027
   m_TagString: Untagged
@@ -91,7 +92,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657135619702373778}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -109,6 +110,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3397189090667070291
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657135619702373778}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1637953216486243501
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,6 +139,7 @@ GameObject:
   - component: {fileID: 5726376857245352679}
   - component: {fileID: 5568980938226347755}
   - component: {fileID: 1141261967}
+  - component: {fileID: 3286999293335336877}
   m_Layer: 6
   m_Name: budynek nr.006
   m_TagString: Untagged
@@ -204,7 +222,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637953216486243501}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -222,6 +240,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3286999293335336877
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637953216486243501}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1660711682703594889
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +269,7 @@ GameObject:
   - component: {fileID: 3775100157751093042}
   - component: {fileID: 5568980938226347749}
   - component: {fileID: 333547638}
+  - component: {fileID: 1750982452804594424}
   m_Layer: 6
   m_Name: budynek nr.008
   m_TagString: Untagged
@@ -317,7 +352,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660711682703594889}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -335,6 +370,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &1750982452804594424
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660711682703594889}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1853070993369983385
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +399,7 @@ GameObject:
   - component: {fileID: 8197505646098014991}
   - component: {fileID: 5568980938226347752}
   - component: {fileID: 225874767}
+  - component: {fileID: 6664235847187467823}
   m_Layer: 6
   m_Name: budynek nr.003
   m_TagString: Untagged
@@ -432,7 +484,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853070993369983385}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -450,6 +502,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &6664235847187467823
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853070993369983385}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2109813472543461927
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +531,7 @@ GameObject:
   - component: {fileID: 119452101216780374}
   - component: {fileID: 5568980938226347759}
   - component: {fileID: 1517931323}
+  - component: {fileID: 7991989659532380289}
   m_Layer: 6
   m_Name: budynek nr.001
   m_TagString: Untagged
@@ -545,7 +614,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109813472543461927}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -563,6 +632,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &7991989659532380289
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109813472543461927}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2222125451119796121
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +661,7 @@ GameObject:
   - component: {fileID: 4855987637405361642}
   - component: {fileID: 5568980938226347737}
   - component: {fileID: 1582544978}
+  - component: {fileID: 103759268236989646}
   m_Layer: 6
   m_Name: budynek nr.021
   m_TagString: Untagged
@@ -658,7 +744,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2222125451119796121}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -676,6 +762,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &103759268236989646
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2222125451119796121}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2877704647193046748
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +791,7 @@ GameObject:
   - component: {fileID: 1437767490619331130}
   - component: {fileID: 5568980938226347734}
   - component: {fileID: 778728479}
+  - component: {fileID: 7167789735952385220}
   m_Layer: 6
   m_Name: budynek nr.026
   m_TagString: Untagged
@@ -767,7 +870,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2877704647193046748}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -785,6 +888,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &7167789735952385220
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2877704647193046748}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2959492414209473280
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +917,7 @@ GameObject:
   - component: {fileID: 4999144164658845594}
   - component: {fileID: 5568980938226347740}
   - component: {fileID: 1890032969}
+  - component: {fileID: 4138149070518655001}
   m_Layer: 6
   m_Name: budynek nr.015
   m_TagString: Untagged
@@ -879,7 +999,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2959492414209473280}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -897,6 +1017,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4138149070518655001
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959492414209473280}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &3422979918640598359
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +1046,7 @@ GameObject:
   - component: {fileID: 670528199571852430}
   - component: {fileID: 5568980938226347738}
   - component: {fileID: 1771049057}
+  - component: {fileID: 5074290837016270375}
   m_Layer: 6
   m_Name: budynek nr.022
   m_TagString: Untagged
@@ -993,7 +1130,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3422979918640598359}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1011,6 +1148,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &5074290837016270375
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3422979918640598359}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &4136105387455269404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1177,7 @@ GameObject:
   - component: {fileID: 2248530863718982981}
   - component: {fileID: 5568980938226347750}
   - component: {fileID: 1317015305}
+  - component: {fileID: 3710591661500151831}
   m_Layer: 6
   m_Name: budynek nr.009
   m_TagString: Untagged
@@ -1106,7 +1260,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4136105387455269404}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1124,6 +1278,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3710591661500151831
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4136105387455269404}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &4604541989890624882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1307,7 @@ GameObject:
   - component: {fileID: 5136793257415713266}
   - component: {fileID: 5568980938226347743}
   - component: {fileID: 195459454}
+  - component: {fileID: 3570326497949698938}
   m_Layer: 6
   m_Name: budynek nr.018
   m_TagString: Untagged
@@ -1222,7 +1393,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4604541989890624882}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1240,6 +1411,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3570326497949698938
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604541989890624882}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &4722472233239974888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,7 +1497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1937ed87ba3643379e5156b518521d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingType: {fileID: 11400000, guid: cf08b5619c5034140bac1c8d3c212346, type: 2}
+  buildingSO: {fileID: 0}
 --- !u!65 &393472965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1353,6 +1540,7 @@ GameObject:
   - component: {fileID: 1609995422905217947}
   - component: {fileID: 5568980938226347742}
   - component: {fileID: 1028227757}
+  - component: {fileID: 7700874916226428413}
   m_Layer: 6
   m_Name: budynek nr.017
   m_TagString: Untagged
@@ -1435,7 +1623,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4812446630824838046}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1453,6 +1641,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &7700874916226428413
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812446630824838046}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &5327117159756081803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,6 +1670,7 @@ GameObject:
   - component: {fileID: 1652755304093791088}
   - component: {fileID: 5568980938226347748}
   - component: {fileID: 808009872}
+  - component: {fileID: 6452853304789648392}
   m_Layer: 6
   m_Name: budynek nr.007
   m_TagString: Untagged
@@ -1549,7 +1754,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5327117159756081803}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1567,6 +1772,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &6452853304789648392
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5327117159756081803}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &5835557208723541659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,6 +1801,7 @@ GameObject:
   - component: {fileID: 8805871340979718698}
   - component: {fileID: 5568980938226347744}
   - component: {fileID: 1344440148}
+  - component: {fileID: 4282893104228506988}
   m_Layer: 6
   m_Name: budynek nr.011
   m_TagString: Untagged
@@ -1664,7 +1886,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5835557208723541659}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1682,6 +1904,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4282893104228506988
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835557208723541659}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &5893421816740341642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1933,7 @@ GameObject:
   - component: {fileID: 6835989776867543446}
   - component: {fileID: 5568980938226347736}
   - component: {fileID: 1582021502}
+  - component: {fileID: 53613990100068300}
   m_Layer: 6
   m_Name: budynek nr.019
   m_TagString: Untagged
@@ -1773,7 +2012,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5893421816740341642}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1791,6 +2030,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &53613990100068300
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893421816740341642}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &6224267761766482743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,6 +2059,7 @@ GameObject:
   - component: {fileID: 595271681700066267}
   - component: {fileID: 5568980938226347753}
   - component: {fileID: 1317552939}
+  - component: {fileID: 7441984317836341479}
   m_Layer: 6
   m_Name: budynek nr.004
   m_TagString: Untagged
@@ -1887,7 +2143,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6224267761766482743}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -1905,6 +2161,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &7441984317836341479
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224267761766482743}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &6232526273104003465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,6 +2190,7 @@ GameObject:
   - component: {fileID: 359180668395755889}
   - component: {fileID: 5568980938226347733}
   - component: {fileID: 2121658124}
+  - component: {fileID: 6829625814285208319}
   m_Layer: 6
   m_Name: budynek nr.025
   m_TagString: Untagged
@@ -2002,7 +2275,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6232526273104003465}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2020,6 +2293,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &6829625814285208319
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232526273104003465}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &6574266134968735271
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,6 +2322,7 @@ GameObject:
   - component: {fileID: 522819318480357197}
   - component: {fileID: 5568980938226347739}
   - component: {fileID: 801298639}
+  - component: {fileID: 3435999560534275002}
   m_Layer: 6
   m_Name: budynek nr.023
   m_TagString: Untagged
@@ -2114,7 +2404,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6574266134968735271}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2132,6 +2422,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3435999560534275002
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6574266134968735271}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &7110018577007283859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2451,7 @@ GameObject:
   - component: {fileID: 612677761776952485}
   - component: {fileID: 5568980938226347754}
   - component: {fileID: 1007664934}
+  - component: {fileID: 8399419278581709343}
   m_Layer: 6
   m_Name: budynek nr.005
   m_TagString: Untagged
@@ -2226,7 +2533,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7110018577007283859}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2244,6 +2551,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &8399419278581709343
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110018577007283859}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &7213285384086284280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2580,7 @@ GameObject:
   - component: {fileID: 4525447329473374757}
   - component: {fileID: 5568980938226347747}
   - component: {fileID: 1716954577}
+  - component: {fileID: 406752077713273402}
   m_Layer: 6
   m_Name: budynek nr.014
   m_TagString: Untagged
@@ -2338,7 +2662,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7213285384086284280}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2356,6 +2680,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &406752077713273402
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213285384086284280}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &7222337356092109336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,6 +2709,7 @@ GameObject:
   - component: {fileID: 4209560606206474583}
   - component: {fileID: 5568980938226347732}
   - component: {fileID: 728568022}
+  - component: {fileID: 6665289317952574996}
   m_Layer: 6
   m_Name: budynek nr.024
   m_TagString: Untagged
@@ -2451,7 +2792,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7222337356092109336}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2469,6 +2810,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &6665289317952574996
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7222337356092109336}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &7997754508666811859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,6 +2839,7 @@ GameObject:
   - component: {fileID: 9005288163800964633}
   - component: {fileID: 5568980938226347746}
   - component: {fileID: 2064955006}
+  - component: {fileID: 4710458057741267999}
   m_Layer: 6
   m_Name: budynek nr.013
   m_TagString: Untagged
@@ -2563,7 +2921,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7997754508666811859}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2581,6 +2939,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4710458057741267999
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7997754508666811859}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &8518730179394631967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2968,7 @@ GameObject:
   - component: {fileID: 7704385828614849821}
   - component: {fileID: 5568980938226347745}
   - component: {fileID: 324045792}
+  - component: {fileID: 2228392710162741197}
   m_Layer: 6
   m_Name: budynek nr.012
   m_TagString: Untagged
@@ -2676,7 +3051,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8518730179394631967}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2694,6 +3069,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2228392710162741197
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518730179394631967}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &8801276719706634593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2707,6 +3098,7 @@ GameObject:
   - component: {fileID: 206293909691282033}
   - component: {fileID: 5568980938226347751}
   - component: {fileID: 1580143235}
+  - component: {fileID: 2298286851733902680}
   m_Layer: 6
   m_Name: budynek nr.010
   m_TagString: Untagged
@@ -2789,7 +3181,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8801276719706634593}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2807,6 +3199,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2298286851733902680
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801276719706634593}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &8990316825676355809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,6 +3228,7 @@ GameObject:
   - component: {fileID: 7836795632420431536}
   - component: {fileID: 5568980938226347741}
   - component: {fileID: 1821268446}
+  - component: {fileID: 3638427785743286044}
   m_Layer: 6
   m_Name: budynek nr.016
   m_TagString: Untagged
@@ -2898,7 +3307,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8990316825676355809}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -2916,3 +3325,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1aab08f3aec9745aa05110085afebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3638427785743286044
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990316825676355809}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1

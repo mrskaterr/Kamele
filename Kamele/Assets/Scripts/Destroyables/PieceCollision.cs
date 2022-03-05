@@ -11,9 +11,9 @@ public class PieceCollision : MonoBehaviour
 
         if (collision.collider.CompareTag("Building"))
         {
-            PointsManager.Instance.AddPoints(collision.collider.GetComponent<Building>().GetPoints());
-            collision.collider.GetComponent<Building>().SetDestroyedState();
+            GameManager.Instance.HitBuilding(collision.collider);
         }
+        
         if (!collision.collider.gameObject.GetComponent<Rigidbody>())
         {
             collision.collider.gameObject.AddComponent<Rigidbody>();

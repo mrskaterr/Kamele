@@ -7,23 +7,44 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    #region structs
+
     [Serializable]
     public struct ExplosivePrefab
-    {
-        public ExplosivesTypes type;
-        public GameObject prefab;
-    }
+        {
+            public ExplosivesTypes type;
+            public GameObject prefab;
+        }
+        
+        [Serializable]
+        public struct DestroyableBuilding
+        {
+            public Buildings type;
+            public GameObject prefab;
+        }
+
+    #endregion
     
+    #region Lists and dictionaries
+
     [SerializeField]
-    private List<ExplosivePrefab> explosivePrefabsList = new List<ExplosivePrefab>();
+        private List<ExplosivePrefab> explosivePrefabsList = new List<ExplosivePrefab>();
+        [SerializeField]
+        private List<DestroyableBuilding> buildingPrefabsList = new List<DestroyableBuilding>();
+ 
+        private Dictionary<ExplosivesTypes, GameObject> explosivesPrefabs = new Dictionary<ExplosivesTypes, GameObject>();
+        
+        private Dictionary<Buildings, GameObject> buildingPrefabs = new Dictionary<Buildings, GameObject>();
+        
+        private Dictionary<ExplosivesTypes, int> explosivesQuantity = new Dictionary<ExplosivesTypes, int>
+            { {ExplosivesTypes.WEAK, 0}, {ExplosivesTypes.MID, 0}, {ExplosivesTypes.STRONG, 0} };
 
-    private ExplosivesTypes currentType;
-    private GameObject currentPrefab;
-
-    private Dictionary<ExplosivesTypes, GameObject> explosivesPrefabs = new Dictionary<ExplosivesTypes, GameObject>();
-    private Dictionary<ExplosivesTypes, int> explosivesQuantity = new Dictionary<ExplosivesTypes, int>
-        { {ExplosivesTypes.WEAK, 0}, {ExplosivesTypes.MID, 0}, {ExplosivesTypes.STRONG, 0} };
+    #endregion
     
+       
+    private ExplosivesTypes currentExplosiveType;
+    private GameObject currentExplosivePrefab;
+
     private void Awake()
     {
         if (Instance != null)
@@ -41,13 +62,13 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        currentType = ExplosivesTypes.WEAK;
-        currentPrefab = explosivesPrefabs[currentType];
+        currentExplosiveType = ExplosivesTypes.WEAK;
+        currentExplosivePrefab = explosivesPrefabs[currentExplosiveType];
     }
 
     private void Update()
     {
-        Debug.Log(currentType);
+        Debug.Log(currentExplosiveType);
     }
 
     private void SetQuantityDict(int weakQuantity, int midQuantity, int strongQuantity)
@@ -63,29 +84,37 @@ public class GameManager : MonoBehaviour
         {
             explosivesPrefabs.Add(element.type, element.prefab);
         }
+
+        foreach (var element in buildingPrefabsList)
+        {
+            buildingPrefabs.Add(element.type, element.prefab);
+        }
     }
 
-    public void DecreaseQuantity() => explosivesQuantity[currentType]--;
+    public void DecreaseQuantity() => explosivesQuantity[currentExplosiveType]--;
     public int GetQuantity(ExplosivesTypes type) => explosivesQuantity[type];
-    public int GetQuantity() => explosivesQuantity[currentType];
+    public int GetQuantity() => explosivesQuantity[currentExplosiveType];
+    public GameObject GetCurrentPrefab() => currentExplosivePrefab;
+    public GameObject GetBuildingPrefab(Buildings type) => buildingPrefabs[type];
     public void SetCurrentTypeToWeak()
     {
-        currentType = ExplosivesTypes.WEAK;
-        currentPrefab = explosivesPrefabs[currentType];
+        currentExplosiveType = ExplosivesTypes.WEAK;
+        currentExplosivePrefab = explosivesPrefabs[currentExplosiveType];
     }
     public void SetCurrentTypeToMid()
     {
-        currentType = ExplosivesTypes.MID;
-        currentPrefab = explosivesPrefabs[currentType];
+        currentExplosiveType = ExplosivesTypes.MID;
+        currentExplosivePrefab = explosivesPrefabs[currentExplosiveType];
     }
     public void SetCurrentTypeToStrong()
     {
-        currentType = ExplosivesTypes.STRONG;
-        currentPrefab = explosivesPrefabs[currentType];
+        currentExplosiveType = ExplosivesTypes.STRONG;
+        currentExplosivePrefab = explosivesPrefabs[currentExplosiveType];
     }
-
-    public GameObject GetCurrentPrefab()
+    public void HitBuilding(Collider collider)
     {
-        return currentPrefab;
+        PointsManager.Instance.AddPoints(collider.GetComponent<Building>().GetPoints());
+        HUDManager.Instance.UpdatePointsTMP(PointsManager.Instance.GetPoints());
+        collider.GetComponent<Building>().SetDestroyedState();
     }
 }
