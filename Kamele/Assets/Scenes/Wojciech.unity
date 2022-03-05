@@ -4166,9 +4166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 963194227}
-  uiLayer:
+  shaderLayerToIgnore:
     serializedVersion: 2
-    m_Bits: 32
+    m_Bits: 2147483648
 --- !u!1 &1048314618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6232526273104003465, guid: b0b637c0f8d90904ab269840cffad5e2, type: 3}

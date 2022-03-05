@@ -54,12 +54,14 @@
   <ItemGroup>
      <Compile Include="Assets\RetroScreen\Scripts\RetroScreenCameraAnchor.cs" />
      <Compile Include="Assets\Scripts\Managers\HUDManager.cs" />
+     <Compile Include="Assets\Scripts\Destroyables\BuildingsHealthSystem.cs" />
      <Compile Include="Assets\Scripts\Explosion\TntPlacer.cs" />
      <Compile Include="Assets\Scripts\Destroyables\PieceCollision.cs" />
      <Compile Include="Assets\RetroScreen\Demo\Scripts\DemoGUI.cs" />
      <Compile Include="Assets\RetroScreen\Demo\Scripts\Rotation.cs" />
      <Compile Include="Assets\RetroScreen\Demo\Scripts\FrameChangeAnchor.cs" />
      <Compile Include="Assets\Scripts\Managers\PointsManager.cs" />
+     <Compile Include="Assets\Scripts\Consts\States.cs" />
      <Compile Include="Assets\RetroScreen\Demo\Scripts\FrameCount.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Consts\ExplosivesTypes.cs" />
@@ -69,8 +71,6 @@
      <Compile Include="Assets\RetroScreen\Scripts\RetroScreen.cs" />
      <Compile Include="Assets\Scripts\Explosion\Tnt.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\TntSO.cs" />
-     <Compile Include="Assets\Scripts\Consts\States.cs" />
-     <Compile Include="Assets\Scripts\Destroyables\BuildingsHealthSystem.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
