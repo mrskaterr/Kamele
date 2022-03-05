@@ -11,12 +11,9 @@ public class TntPlacer : MonoBehaviour
     [SerializeField]
     private Camera cam;
     
-
-    private Vector3 mousePos;
-    private Vector3 tempPos;
-
     private void Update()
     {
+        
         if (Input.GetMouseButtonDown(0))
         {
             PlaceTnt();
