@@ -1,5 +1,4 @@
 using System;
-using Consts;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewExplosive", menuName = "Explosive", order = 0)]
