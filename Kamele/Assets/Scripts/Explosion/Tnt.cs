@@ -1,6 +1,8 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
-public class Charge : MonoBehaviour
+public class Tnt : MonoBehaviour
 {
     [Header("Which layers to destroy")]
     [SerializeField]
@@ -25,7 +27,10 @@ public class Charge : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) Explode();
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Explode();
+        }
     }
 
     private void SetPrefab()
@@ -35,40 +40,38 @@ public class Charge : MonoBehaviour
         _explForce = tntSO.explosionForce;
     }
 
-    private void Explode()
+    public void Explode()
     {
+        Debug.Log("explosion");
         var colliders = Physics.OverlapSphere(pos, _radius, destroyable);
 
-        Destroy(gameObject);
+       // Destroy(gameObject);
 
         #region points system
 
         foreach (var collider in colliders)
         {
-            if (collider == null) return;
             if (collider.GetComponent<Building>())
             {
                 Debug.Log(collider.name);
-                PointsManager.Instance.AddPoints(collider.GetComponent<Building>().GetPoints());
-                HUDManager.Instance.UpdatePointsTMP(PointsManager.Instance.GetPoints());
-                collider.GetComponent<Building>().SetDestroyedState();
+                GameManager.Instance.HitBuilding(collider);
             }
         }
 
         #endregion
 
+        Debug.Log("huj");
         #region explosion system
 
         foreach (var collider in colliders)
         {
-            if (collider == null) return;
-
             if (!collider.GetComponent<Rigidbody>()) collider.gameObject.AddComponent<Rigidbody>();
 
-            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, .1f);
+            collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
         }
 
         #endregion
+        Debug.Log("cipa");
     }
 
     private void OnDrawGizmos()

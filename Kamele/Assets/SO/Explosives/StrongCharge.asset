@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: StrongCharge
   m_EditorClassIdentifier: 
   radius: 50
-  explosionForce: 750
+  explosionForce: 2000
   material: {fileID: 2100000, guid: 16ffa410bb9d15b47af70eac53eedc68, type: 2}
   explosiveType: 2

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WeakCharge
   m_EditorClassIdentifier: 
   radius: 10
-  explosionForce: 350
+  explosionForce: 100
   material: {fileID: 2100000, guid: 690e868f8c62f054b9248762ae69efc7, type: 2}
   explosiveType: 0

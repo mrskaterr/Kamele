@@ -20,7 +20,7 @@ public class TntPlacer : MonoBehaviour
         }
         else
         {
-            if (Input.GetMouseButtonDown(0) && GameManager.Instance.GetQuantity() > 0)
+            if (Input.GetMouseButtonDown(0) && GameManager.Instance.CheckIfTntCanBePlaced())
             {
                 PlaceTnt();
             }
@@ -31,8 +31,6 @@ public class TntPlacer : MonoBehaviour
     {
         RaycastHit hitPoint;
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hitPoint, Mathf.Infinity, uiLayer)) return;
-
         if (Physics.Raycast(ray, out hitPoint, Mathf.Infinity))
         {
             Instantiate(GameManager.Instance.GetCurrentPrefab(), hitPoint.point, Quaternion.identity);

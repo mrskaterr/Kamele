@@ -29,6 +29,7 @@ public class HUDManager : MonoBehaviour
     private void Start()
     {
         UpdateTMP();
+        UpdatePointsTMP(0);
     }
 
     public void UpdateTMP()
@@ -36,7 +37,6 @@ public class HUDManager : MonoBehaviour
         UpdateWeakTMP(GameManager.Instance.GetQuantity(ExplosivesTypes.WEAK));
         UpdateMidTMP(GameManager.Instance.GetQuantity(ExplosivesTypes.MID));
         UpdateStrongTMP(GameManager.Instance.GetQuantity(ExplosivesTypes.STRONG));
-        UpdatePointsTMP(0);
     }
     public void UpdatePointsTMP(int value)
     {

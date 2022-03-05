@@ -7,16 +7,18 @@ public class PieceCollision : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.CompareTag("Undestroyable")) return;
+        var huj = collision.collider;
+        if (huj.CompareTag("Undestroyable")) return;
 
-        if (collision.collider.CompareTag("Building"))
+        if (huj.CompareTag("Building"))
         {
-            PointsManager.Instance.AddPoints(collision.collider.GetComponent<Building>().GetPoints());
-            collision.collider.GetComponent<Building>().SetDestroyedState();
+            huj.GetComponent<BuildingsHealthSystem>().DealDamage();
+            GameManager.Instance.HitBuilding(collision.collider);
         }
-        if (!collision.collider.gameObject.GetComponent<Rigidbody>())
+        else if (!huj.gameObject.GetComponent<Rigidbody>())
         {
-            collision.collider.gameObject.AddComponent<Rigidbody>();
+            huj.gameObject.AddComponent<Rigidbody>();
+            huj.gameObject.GetComponent<Rigidbody>().mass = 5f;
         }
     }
 }
