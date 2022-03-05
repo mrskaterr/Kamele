@@ -15,11 +15,11 @@ C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50682
+60977
 Successfully changed project path to: C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001124 seconds.
+Registered in 0.001103 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.585 seconds
+- Completed reload, in  0.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (585ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (437ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (150ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (146ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (28ms)
 				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001979 seconds.
+Registered in 0.001913 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.893 seconds
 Domain Reload Profiling:
-	ReloadAssembly (892ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (894ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (701ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
+			SetupTypeCache (243ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 68.0 MB.
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1946.
-Total: 2.568800 ms (FindLiveObjects: 0.127800 ms CreateObjectMapping: 0.039800 ms MarkObjects: 2.347600 ms  DeleteObjects: 0.052800 ms)
+Total: 2.625900 ms (FindLiveObjects: 0.127300 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.398400 ms  DeleteObjects: 0.055700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,451 +131,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/miasto
-  artifactKey: Guid(4abb1c6b2a6622045b75444a289a4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/miasto using Guid(4abb1c6b2a6622045b75444a289a4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa04434cc220f84b5202a0ae3a15d76') in 0.008943 seconds 
+  path: Assets/miasto/modularne ulice/trawka.mat
+  artifactKey: Guid(2cc26ecc186202e40b0395247a10e281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/trawka.mat using Guid(2cc26ecc186202e40b0395247a10e281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b75783b4ced9a1596f211ee7b36f81') in 0.090637 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 697.681813 seconds.
-  path: Assets/miasto/drzewko
-  artifactKey: Guid(e518d5344a1fac64d8222af3f040a2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/miasto/drzewko using Guid(e518d5344a1fac64d8222af3f040a2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8093e583f929dc21969f958a5c93cc30') in 0.009454 seconds 
+  Time since last request: 3.477439 seconds.
+  path: Assets/miasto/modularne ulice/ulica gola.fbx
+  artifactKey: Guid(d69e5a525bba06b4d8e68a75852c3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica gola.fbx using Guid(d69e5a525bba06b4d8e68a75852c3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4ca917fcbed35cf18c61017d93f31b') in 0.055870 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.043738 seconds.
-  path: Assets/miasto/drzewko/D_drzewko.fbx
-  artifactKey: Guid(44da3314bc3c4a74391f8f244b6f5811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/miasto/drzewko/D_drzewko.fbx using Guid(44da3314bc3c4a74391f8f244b6f5811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd58feb8287cee08eec16c0bb9fde3b5') in 0.176456 seconds 
+  Time since last request: 5.659058 seconds.
+  path: Assets/miasto/modularne ulice/pasy 1.fbx
+  artifactKey: Guid(c21214e76cbf56e4992487990504249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/pasy 1.fbx using Guid(c21214e76cbf56e4992487990504249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7ea29e2d5994f8d2ed0fa757f90ed2') in 0.046841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/miasto/drzewko/drzewko.fbx
-  artifactKey: Guid(eee3446696560904597ed36ca3a415ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/miasto/drzewko/drzewko.fbx using Guid(eee3446696560904597ed36ca3a415ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d7f564a45bfb4d51f347345b95cd8f') in 0.028035 seconds 
+  Time since last request: 5.647799 seconds.
+  path: Assets/miasto/modularne ulice/chodnik.fbx
+  artifactKey: Guid(9dec33c762c60a84a8deceda91e70980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/chodnik.fbx using Guid(9dec33c762c60a84a8deceda91e70980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f66735569c439b2a2cc46ea30fe8753') in 0.034632 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 293.282244 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly
-  artifactKey: Guid(91ee10a6f87f25d4cbdc88e29a79c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly using Guid(91ee10a6f87f25d4cbdc88e29a79c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df72bd67048fe8dfcbcb90322480292c') in 0.008524 seconds 
+  Time since last request: 468.070868 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie.fbx
+  artifactKey: Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie.fbx using Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504aa23a52ca6c67c616b952db49e67a') in 0.064554 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.006051 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs
-  artifactKey: Guid(4091423c30484ad48b1e8c706ecb0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs using Guid(4091423c30484ad48b1e8c706ecb0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcefeb1fc41fef44b1c82f2c09d740fe') in 0.009185 seconds 
+  Time since last request: 7.513593 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie ulica.fbx
+  artifactKey: Guid(3608bdab32aa2934484f446b0d381bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie ulica.fbx using Guid(3608bdab32aa2934484f446b0d381bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7124ad3e547234df82f8494b7b1855d1') in 0.058732 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056756 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab
-  artifactKey: Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab using Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1637edf077252a7b3f97294dbc6d33c6') in 0.024131 seconds 
+  Time since last request: 2.955541 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie chodnik.fbx
+  artifactKey: Guid(d41337aabfb5612499c9c2a0755c9b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie chodnik.fbx using Guid(d41337aabfb5612499c9c2a0755c9b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0d06e8979d1c45f2adcb4218a05456') in 0.047354 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV3.prefab
-  artifactKey: Guid(b49c6f450a89f8642944078a1f09d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV3.prefab using Guid(b49c6f450a89f8642944078a1f09d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f8c64d451830b004485d2179375b49') in 0.019878 seconds 
+  Time since last request: 138.273191 seconds.
+  path: Assets/miasto/modularne ulice/chodnik.fbx
+  artifactKey: Guid(9dec33c762c60a84a8deceda91e70980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/chodnik.fbx using Guid(9dec33c762c60a84a8deceda91e70980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37365ff8752057e753f6ca9bf4fb49f6') in 0.032209 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV2.prefab
-  artifactKey: Guid(335ee073701a58041baa1c161dc6b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV2.prefab using Guid(335ee073701a58041baa1c161dc6b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299baed6fcdcbcd7eaa733f59fb167b4') in 0.015335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Post-Truck.prefab
-  artifactKey: Guid(ef80b440aca48474a9409086221c86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Post-Truck.prefab using Guid(ef80b440aca48474a9409086221c86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b5429b35192a9c5ed7ce4fe141559') in 0.015147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/IceCream-Truck.prefab
-  artifactKey: Guid(67071bebbe68fc545a3b606c434aa77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/IceCream-Truck.prefab using Guid(67071bebbe68fc545a3b606c434aa77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11400951d698ded8741750639f8ba52f') in 0.014800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV1.prefab
-  artifactKey: Guid(e79cf1bda94203d4db52196555f2dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV1.prefab using Guid(e79cf1bda94203d4db52196555f2dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e203e23818976dff1ddd8a37c54560ac') in 0.015366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV4.prefab
-  artifactKey: Guid(26a2f44fb113c8d4587071c3d896b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV4.prefab using Guid(26a2f44fb113c8d4587071c3d896b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8735c69d1a305b9fc2d90af0bd67c117') in 0.015514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/EL-Truck.prefab
-  artifactKey: Guid(86646ad0b3ded544d9dd5db9436b3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/EL-Truck.prefab using Guid(86646ad0b3ded544d9dd5db9436b3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c13c9bceb44471c6f7f16c4b51cdcff') in 0.014431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV1.prefab
-  artifactKey: Guid(3c6ccf348d6edb741a7822251661b5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV1.prefab using Guid(3c6ccf348d6edb741a7822251661b5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352f5299d157b014a20c176a83801e0a') in 0.014166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV2.prefab
-  artifactKey: Guid(5fe0d2816183fb447b860ad12e13398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV2.prefab using Guid(5fe0d2816183fb447b860ad12e13398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0b40a41e7e91a2800fa325f10d3810') in 0.014472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 128.487747 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab
-  artifactKey: Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab using Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a0cf8430df07333d1d98c90003b693') in 0.015711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.400583 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab
-  artifactKey: Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab using Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535f7f6393889acc873bef2b8bbb8e5e') in 0.013013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.006667 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab
-  artifactKey: Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab using Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dc910461ec35f1d03735d8411ec7ff') in 0.011255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.640085 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/EL-Truck.prefab
-  artifactKey: Guid(86646ad0b3ded544d9dd5db9436b3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/EL-Truck.prefab using Guid(86646ad0b3ded544d9dd5db9436b3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bad61735e066ee57c2afc58b5ba7dc') in 0.017258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.462944 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/IceCream-Truck.prefab
-  artifactKey: Guid(67071bebbe68fc545a3b606c434aa77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/IceCream-Truck.prefab using Guid(67071bebbe68fc545a3b606c434aa77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0356f4f1bb35b3f26b68aa0ddbcfcc03') in 0.015981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.030517 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV1.prefab
-  artifactKey: Guid(e79cf1bda94203d4db52196555f2dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV1.prefab using Guid(e79cf1bda94203d4db52196555f2dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814fb7ebb5885f666251050bd865c834') in 0.016693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.550380 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV2.prefab
-  artifactKey: Guid(5fe0d2816183fb447b860ad12e13398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV2.prefab using Guid(5fe0d2816183fb447b860ad12e13398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c213295333df83fdbfb33b7a812e3ba4') in 0.010025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.191839 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV3.prefab
-  artifactKey: Guid(b49c6f450a89f8642944078a1f09d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV3.prefab using Guid(b49c6f450a89f8642944078a1f09d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953c0904f8fdadcb098016daee66631') in 0.013424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.099687 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV4.prefab
-  artifactKey: Guid(26a2f44fb113c8d4587071c3d896b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV4.prefab using Guid(26a2f44fb113c8d4587071c3d896b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db34543e0e82c3e09e73c72e386a6132') in 0.012409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.831460 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Post-Truck.prefab
-  artifactKey: Guid(ef80b440aca48474a9409086221c86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Post-Truck.prefab using Guid(ef80b440aca48474a9409086221c86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eade49ffc8efc7224e2290c40f916429') in 0.012042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.087448 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV1.prefab
-  artifactKey: Guid(3c6ccf348d6edb741a7822251661b5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV1.prefab using Guid(3c6ccf348d6edb741a7822251661b5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b185fbebdc58a8c8c04a66b6b13cde') in 0.012384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.744188 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV2.prefab
-  artifactKey: Guid(335ee073701a58041baa1c161dc6b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/SwiftoV2.prefab using Guid(335ee073701a58041baa1c161dc6b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eff654f1ba61f180df4aa2954af1ba') in 0.009047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.023719 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2
-  artifactKey: Guid(dacbff50b6dadcd478e3835b78c9bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2 using Guid(dacbff50b6dadcd478e3835b78c9bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd114682e5b4b934687b0bc27b7b7740c') in 0.008554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.104274 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Ambulance-Truck.prefab
-  artifactKey: Guid(8e50bb47071455643ad7bca895c09990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Ambulance-Truck.prefab using Guid(8e50bb47071455643ad7bca895c09990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab689ad9d00e7ca748de21d54f35853') in 0.012837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/EL-Truck.prefab
-  artifactKey: Guid(31b856af15c954a42b93f9bfcf3f945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/EL-Truck.prefab using Guid(31b856af15c954a42b93f9bfcf3f945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd28a6646cc5a709857f9a5432be766') in 0.018753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/IceCream-Truck.prefab
-  artifactKey: Guid(d65b8034b1e1cf04eb6df23b89dc1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/IceCream-Truck.prefab using Guid(d65b8034b1e1cf04eb6df23b89dc1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff6925275d041cc2595823c53de31a7') in 0.013145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV4.prefab
-  artifactKey: Guid(5dd37a4048b313b4a9ed93b9104e820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV4.prefab using Guid(5dd37a4048b313b4a9ed93b9104e820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064031610f9b77dcc6f529dcb5b24a48') in 0.013950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV1.prefab
-  artifactKey: Guid(8914c02cb18a7954d92973847e81e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV1.prefab using Guid(8914c02cb18a7954d92973847e81e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38d772d168814e41703b7ba86021d4e') in 0.016515 seconds 
+  Time since last request: 0.000203 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie chodnik.fbx
+  artifactKey: Guid(d41337aabfb5612499c9c2a0755c9b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie chodnik.fbx using Guid(d41337aabfb5612499c9c2a0755c9b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfaed46862653c2e8bb99e0a8652410') in 0.048761 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000275 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV2.prefab
-  artifactKey: Guid(7a6ec560fc9df9148850072487d856f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV2.prefab using Guid(7a6ec560fc9df9148850072487d856f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfc05c688bcba81e5efabcb6c396e15') in 0.015145 seconds 
+  path: Assets/miasto/modularne ulice/skrzyzowanie ulica.fbx
+  artifactKey: Guid(3608bdab32aa2934484f446b0d381bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie ulica.fbx using Guid(3608bdab32aa2934484f446b0d381bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d081bc6d35d1b2d6468a38b7855a7ac') in 0.053819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Post-Truck.prefab
-  artifactKey: Guid(2af868e0b6e31ae4382cb793a451a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Post-Truck.prefab using Guid(2af868e0b6e31ae4382cb793a451a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c8546b7f971e5811bdab93667fe1df') in 0.014713 seconds 
+  Time since last request: 0.000202 seconds.
+  path: Assets/miasto/modularne ulice/ulica gola.fbx
+  artifactKey: Guid(d69e5a525bba06b4d8e68a75852c3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica gola.fbx using Guid(d69e5a525bba06b4d8e68a75852c3852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306bb35e607ff0bc97c9004a0f9f92eb') in 0.015300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV1.prefab
-  artifactKey: Guid(096434f927497e743ab27f4332b6a2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV1.prefab using Guid(096434f927497e743ab27f4332b6a2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7f7ffd5aca67983230c291f3924186') in 0.015872 seconds 
+  Time since last request: 0.000185 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie dopelnienie chodnik.fbx
+  artifactKey: Guid(e6f763ed38acb9f4c807efd056eabfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie dopelnienie chodnik.fbx using Guid(e6f763ed38acb9f4c807efd056eabfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bc09ce2c4f8a9fec40d00e43757cea') in 0.027745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV1.prefab
-  artifactKey: Guid(3bd7838674ef1254484a3d8b0fd45899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV1.prefab using Guid(3bd7838674ef1254484a3d8b0fd45899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55de214c5429b2a293aac61a7569ec2') in 0.015708 seconds 
+  Time since last request: 0.000188 seconds.
+  path: Assets/miasto/modularne ulice/stacja benz z podstawka.fbx
+  artifactKey: Guid(b8c27501a5631bd42b8a79df623770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/stacja benz z podstawka.fbx using Guid(b8c27501a5631bd42b8a79df623770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c6d24ff63006e4463932ceb7ba1d9f') in 0.547386 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV3.prefab
-  artifactKey: Guid(3d6866e1b376a514aaaa0799e3e02e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV3.prefab using Guid(3d6866e1b376a514aaaa0799e3e02e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccff4d4d73d83af10027f420d8a2fec') in 0.013864 seconds 
+  Time since last request: 0.000233 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie.fbx
+  artifactKey: Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie.fbx using Guid(703ce79c375e8654f9f0a760df1f11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41b5866a44cfc15a36c3627c5799135') in 0.050695 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV2.prefab
-  artifactKey: Guid(274404c385b64cb42953ac59e3b5e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV2.prefab using Guid(274404c385b64cb42953ac59e3b5e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d13d7c0a9cf0c4deb4bab30a0b2a4a') in 0.014367 seconds 
+  Time since last request: 0.000228 seconds.
+  path: Assets/miasto/modularne ulice/pasy.fbx
+  artifactKey: Guid(c6b933f9871f5294b9e4331c071e6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/pasy.fbx using Guid(c6b933f9871f5294b9e4331c071e6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe6b29fe5e2c130bdea88aa732fafe2') in 0.021541 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SuvV1.prefab
-  artifactKey: Guid(a99cfa4d09b0e3f41972c0599bd48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SuvV1.prefab using Guid(a99cfa4d09b0e3f41972c0599bd48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a77a734f1555232dbd9e1f65ec30ef') in 0.015677 seconds 
+  Time since last request: 0.000183 seconds.
+  path: Assets/miasto/modularne ulice/ulica.fbx
+  artifactKey: Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/ulica.fbx using Guid(af4e5c31c88ccaa4c82dc7c3a8766b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78699f412168e817644605435c8d95be') in 0.024313 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV2.prefab
-  artifactKey: Guid(1ffbb6cce827c1b45b8dd40d0a41cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV2.prefab using Guid(1ffbb6cce827c1b45b8dd40d0a41cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a11285b3320d604f0675761bdbeda8a') in 0.014696 seconds 
+  Time since last request: 0.000209 seconds.
+  path: Assets/miasto/modularne ulice/parking.fbx
+  artifactKey: Guid(e1cedf297e5ebe1459312356e0928862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/parking.fbx using Guid(e1cedf297e5ebe1459312356e0928862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ef8490ce2b1eff69940b58c8c185e0') in 0.020172 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV2.prefab
-  artifactKey: Guid(de166e0c7a54d9b4ead2786adb9fb669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV2.prefab using Guid(de166e0c7a54d9b4ead2786adb9fb669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb10a69f6d11aadfb4d648f4e8a097db') in 0.014527 seconds 
+  Time since last request: 0.000183 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie dopelnienie ulica.fbx
+  artifactKey: Guid(b85399b71d2a3be49b084de14fceec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie dopelnienie ulica.fbx using Guid(b85399b71d2a3be49b084de14fceec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1685f30fd0a6afbdc3468541d33cff0') in 0.018822 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV1.prefab
-  artifactKey: Guid(f1f1e97e55bfb8f4f8cd9e368bd115ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV1.prefab using Guid(f1f1e97e55bfb8f4f8cd9e368bd115ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f78e5a23c355b56538538ccb14701') in 0.015815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.273721 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1
-  artifactKey: Guid(5d3c465e3b690fb4a978316c0687c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1 using Guid(5d3c465e3b690fb4a978316c0687c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efae3e4105ada853a15436e627f7df99') in 0.008300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055934 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Ambulance-Truck.prefab
-  artifactKey: Guid(37c436dd7b866664e90d19669a51fdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Ambulance-Truck.prefab using Guid(37c436dd7b866664e90d19669a51fdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11300fe9ae16da91bf3d93c260d45aaf') in 0.011376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Post-Truck.prefab
-  artifactKey: Guid(7b92377a44f0d9243959d01a2687b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Post-Truck.prefab using Guid(7b92377a44f0d9243959d01a2687b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530f334e7059b59045f0e93a0af58177') in 0.012335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV2.prefab
-  artifactKey: Guid(fd82dfe3ac830874e8de29b73e27ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV2.prefab using Guid(fd82dfe3ac830874e8de29b73e27ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f193e2fd517c65171de6b3239f9a69') in 0.013090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/IceCream-Truck.prefab
-  artifactKey: Guid(44cfb038444ccab46b1be84520896723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/IceCream-Truck.prefab using Guid(44cfb038444ccab46b1be84520896723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba36b3cedd1e1f49a3c5d6b6b7d65959') in 0.013094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/EL-Truck.prefab
-  artifactKey: Guid(5849b222ccfe59f4b8d1d0e1b3790ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/EL-Truck.prefab using Guid(5849b222ccfe59f4b8d1d0e1b3790ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5755428b8c4d24fe5538c3fbcbfd70a0') in 0.012539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV1.prefab
-  artifactKey: Guid(075830188e830aa48a04e027148bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV1.prefab using Guid(075830188e830aa48a04e027148bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e74f6ff69e11ab841a2675af278145') in 0.013562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV1.prefab
-  artifactKey: Guid(c8bdb63b6e1abbb44b66f46012db2421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV1.prefab using Guid(c8bdb63b6e1abbb44b66f46012db2421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a583ec64108dd792fc2cb08429ec67') in 0.013942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SuvV1.prefab
-  artifactKey: Guid(825aa5a53c5f967449d03cb21b435c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SuvV1.prefab using Guid(825aa5a53c5f967449d03cb21b435c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271b3c060682e89e42370c28271d44ab') in 0.012820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV4.prefab
-  artifactKey: Guid(d1e9cd7841878ba4da8f592925f138dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV4.prefab using Guid(d1e9cd7841878ba4da8f592925f138dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98dcd4390c2c1249052b9347c0ede2d') in 0.012307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV2.prefab
-  artifactKey: Guid(416f4470def63b149ab58618fda592cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV2.prefab using Guid(416f4470def63b149ab58618fda592cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed092bfea33c59573f35353d180b496') in 0.012933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV2.prefab
-  artifactKey: Guid(2374bd9f1dd3c204a8edcf1c4a55f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV2.prefab using Guid(2374bd9f1dd3c204a8edcf1c4a55f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8145f38f9501e068c793061944a18304') in 0.012853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV2.prefab
-  artifactKey: Guid(4f13381abf38ac84e8d816732f52e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV2.prefab using Guid(4f13381abf38ac84e8d816732f52e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509dcb96e403402caad28a61034c44de') in 0.013278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV3.prefab
-  artifactKey: Guid(a2ae1699499bc2a4d8ccc4859fe14ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV3.prefab using Guid(a2ae1699499bc2a4d8ccc4859fe14ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d295934bae160b7df38b9092ecf7b7') in 0.013476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV1.prefab
-  artifactKey: Guid(1ad581c9347dbad4ba135f27bfffcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV1.prefab using Guid(1ad581c9347dbad4ba135f27bfffcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b345b584be41775cb03e207b83f26c') in 0.012943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV1.prefab
-  artifactKey: Guid(ce4b4514e6a21384fb21dec6365d5812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV1.prefab using Guid(ce4b4514e6a21384fb21dec6365d5812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714cf4577423bc524f3dd21b78f4fd14') in 0.013796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.539213 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Ambulance-Truck.prefab
-  artifactKey: Guid(8e50bb47071455643ad7bca895c09990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Ambulance-Truck.prefab using Guid(8e50bb47071455643ad7bca895c09990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08acfba22d71c1122392b17c9869817') in 0.014443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.495935 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/EL-Truck.prefab
-  artifactKey: Guid(31b856af15c954a42b93f9bfcf3f945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/EL-Truck.prefab using Guid(31b856af15c954a42b93f9bfcf3f945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29d9a11713221143256aeb9c171d28a') in 0.011278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.373633 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/IceCream-Truck.prefab
-  artifactKey: Guid(d65b8034b1e1cf04eb6df23b89dc1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/IceCream-Truck.prefab using Guid(d65b8034b1e1cf04eb6df23b89dc1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3bffe129503502a5bd3851fbaa10aa') in 0.008592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.761149 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV1.prefab
-  artifactKey: Guid(3bd7838674ef1254484a3d8b0fd45899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV1.prefab using Guid(3bd7838674ef1254484a3d8b0fd45899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d956da26fd42ee69f8a5a7e427b0e4d') in 0.011856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.730196 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV2.prefab
-  artifactKey: Guid(7a6ec560fc9df9148850072487d856f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MinivanV2.prefab using Guid(7a6ec560fc9df9148850072487d856f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a491bd5c26ae96138947ae9df3a44947') in 0.022737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.372922 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV1.prefab
-  artifactKey: Guid(f1f1e97e55bfb8f4f8cd9e368bd115ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV1.prefab using Guid(f1f1e97e55bfb8f4f8cd9e368bd115ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab4eec528e38dd60665bbef0dae3021') in 0.009866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.597896 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV2.prefab
-  artifactKey: Guid(274404c385b64cb42953ac59e3b5e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV2.prefab using Guid(274404c385b64cb42953ac59e3b5e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca6c5ac9e84b1dd3db1d75150cab50') in 0.010646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.287289 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV3.prefab
-  artifactKey: Guid(3d6866e1b376a514aaaa0799e3e02e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV3.prefab using Guid(3d6866e1b376a514aaaa0799e3e02e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8552bd2da91e777b3988752fc4c66b0') in 0.008778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.003820 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV4.prefab
-  artifactKey: Guid(5dd37a4048b313b4a9ed93b9104e820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/MuscleCarV4.prefab using Guid(5dd37a4048b313b4a9ed93b9104e820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725383a73db308e8f1153bd8b2f9c612') in 0.010686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.662919 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV1.prefab
-  artifactKey: Guid(096434f927497e743ab27f4332b6a2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV1.prefab using Guid(096434f927497e743ab27f4332b6a2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfd83ceac864dca7f93758838909164') in 0.010786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.906362 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV2.prefab
-  artifactKey: Guid(de166e0c7a54d9b4ead2786adb9fb669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/PickupV2.prefab using Guid(de166e0c7a54d9b4ead2786adb9fb669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0d822a371853cdea1955f6e44a4ff0') in 0.010424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.747973 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Post-Truck.prefab
-  artifactKey: Guid(2af868e0b6e31ae4382cb793a451a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/Post-Truck.prefab using Guid(2af868e0b6e31ae4382cb793a451a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f142c812df4d04f463929c113c3c58f7') in 0.013475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.711929 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SuvV1.prefab
-  artifactKey: Guid(a99cfa4d09b0e3f41972c0599bd48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SuvV1.prefab using Guid(a99cfa4d09b0e3f41972c0599bd48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ed63f5aa517fc632dc704e65a4075e') in 0.012732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.417576 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV1.prefab
-  artifactKey: Guid(8914c02cb18a7954d92973847e81e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV1.prefab using Guid(8914c02cb18a7954d92973847e81e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4488f2798a3734648f2b7f0b238e53d') in 0.009193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.919417 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV2.prefab
-  artifactKey: Guid(1ffbb6cce827c1b45b8dd40d0a41cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.2/SwiftoV2.prefab using Guid(1ffbb6cce827c1b45b8dd40d0a41cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbad430e17cffebed9ab5b51ec91243') in 0.010020 seconds 
+  Time since last request: 89.666798 seconds.
+  path: Assets/miasto/modularne ulice/skrzyzowanie ulica.fbx
+  artifactKey: Guid(3608bdab32aa2934484f446b0d381bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miasto/modularne ulice/skrzyzowanie ulica.fbx using Guid(3608bdab32aa2934484f446b0d381bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05857260f7b3ca1a9906ba0f45c74c84') in 0.052392 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
