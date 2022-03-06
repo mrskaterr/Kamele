@@ -34,14 +34,9 @@ public class Tnt : MonoBehaviour
             StartCoroutine(Explode(id));
         }
     }
-    IEnumerator Wait(float second)
-    {
-        yield return new WaitForSeconds(second);
-    }
 
     private void SetPrefab()
     {
-        gameObject.GetComponent<Renderer>().sharedMaterial = tntSO.material;
         _radius = tntSO.radius;
         _explForce = tntSO.explosionForce;
     }
