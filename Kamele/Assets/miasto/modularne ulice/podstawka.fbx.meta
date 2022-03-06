@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 04952ed1f52b6ce4fa42b39213cd5b19
+guid: fbd625bdb7d938b40a291493ff1f6055
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parking
+    second: {fileID: 2100000, guid: 2a2f191e975cbfb40917852afc494569, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
