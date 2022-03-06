@@ -7,10 +7,11 @@ public class Tnt : MonoBehaviour
     [Header("Which layers to destroy")]
     [SerializeField]
     private LayerMask destroyable;
+    private int id;
 
-    [SerializeField] 
+    [SerializeField]
     private TntSO tntSO;
-    
+
     private Vector3 pos;
     private float _explForce;
     private float _radius;
@@ -23,14 +24,20 @@ public class Tnt : MonoBehaviour
     private void Start()
     {
         SetPrefab();
+        id=GameManager.Instance.idCounter;
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Explode();
+            StartCoroutine(Wait(id));
         }
+    }
+    IEnumerator Wait(float Second)
+    {
+        yield return new WaitForSeconds(Second);
+        Explode();
     }
 
     private void SetPrefab()
@@ -44,42 +51,23 @@ public class Tnt : MonoBehaviour
     {
         Debug.Log("explosion");
         var colliders = Physics.OverlapSphere(pos, _radius, destroyable);
-
-       // Destroy(gameObject);
-
-        #region points system
-
+        
         foreach (var collider in colliders)
         {
-            if (collider.GetComponent<Building>())
+            if (collider?.GetComponent<Building>())
             {
                 Debug.Log(collider.name);
                 GameManager.Instance.HitBuilding(collider);
             }
         }
-
-        #endregion
-
-        Debug.Log("huj");
-        #region explosion system
-
         foreach (var collider in colliders)
         {
-<<<<<<< HEAD
-            if (collider == null) return;
             collider.GetComponent<Bot>()?.RagdollActivate();
-            
-=======
->>>>>>> wojtasxd
             if (!collider.GetComponent<Rigidbody>()) collider.gameObject.AddComponent<Rigidbody>();
-
             collider.GetComponent<Rigidbody>().AddExplosionForce(_explForce, pos, _radius);
         }
-
-        #endregion
-        Debug.Log("cipa");
+        Destroy(gameObject);
     }
-
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(pos, _radius);
