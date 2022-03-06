@@ -8,4 +8,12 @@ public class TitleScreen : MonoBehaviour
     {
         LevelLoader.Instance.LoadScenes();
     }
+    public void SettingsButton()
+    {
+        
+    }
+    public void QuitButton()
+    {
+        Application.Quit();
+    }
 }
