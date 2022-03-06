@@ -45,7 +45,7 @@ public class Tnt : MonoBehaviour
         Debug.Log("explosion");
         var colliders = Physics.OverlapSphere(pos, _radius, destroyable);
 
-       // Destroy(gameObject);
+        Destroy(gameObject);
 
         #region points system
 
