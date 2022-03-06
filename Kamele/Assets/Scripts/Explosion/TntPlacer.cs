@@ -16,10 +16,17 @@ public class TntPlacer : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && GameManager.Instance.CheckIfTntCanBePlaced())
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            // Do nothing
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0) && GameManager.Instance.CheckIfTntCanBePlaced())
             {
                 PlaceTnt();
             }
+        }
     }
 
     private void PlaceTnt()

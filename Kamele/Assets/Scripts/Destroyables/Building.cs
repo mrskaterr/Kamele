@@ -5,7 +5,7 @@ public class Building : MonoBehaviour
     [SerializeField]
     private BuildingSO buildingType;
 
-    private bool isDestroyed;
+    public bool isDestroyed;
 
     public int GetPoints()
     {
