@@ -8,6 +8,7 @@ public class PointsManager : MonoBehaviour
     public static PointsManager Instance;
 
     private int _points;
+    public int playerBudget;
     
     private void Awake()
     {
