@@ -55,7 +55,11 @@
      <Compile Include="Assets\RetroScreen\Scripts\RetroScreenCameraAnchor.cs" />
      <Compile Include="Assets\Scripts\Managers\HUDManager.cs" />
      <Compile Include="Assets\Scripts\Destroyables\BuildingsHealthSystem.cs" />
+     <Compile Include="Assets\Scripts\Menu and LevelLoader\ProgressBar.cs" />
      <Compile Include="Assets\Scripts\Explosion\TntPlacer.cs" />
+     <Compile Include="Assets\Scripts\Consts\SceneNames.cs" />
+     <Compile Include="Assets\Scripts\Menu and LevelLoader\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Menu and LevelLoader\TitleScreen.cs" />
      <Compile Include="Assets\Scripts\Destroyables\PieceCollision.cs" />
      <Compile Include="Assets\RetroScreen\Demo\Scripts\DemoGUI.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
