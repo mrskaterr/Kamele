@@ -15,11 +15,11 @@ C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52973
+58074
 Successfully changed project path to: C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 C:/Users/micsz/Desktop/studia/2ROK/Zespolowu/Kamele/Kamele/Kamele
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001071 seconds.
+Registered in 0.001069 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.527 seconds
+- Completed reload, in  0.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (412ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (156ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
+				RefreshPlugins (31ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001944 seconds.
+Registered in 0.001921 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.893 seconds
+- Completed reload, in  0.923 seconds
 Domain Reload Profiling:
-	ReloadAssembly (894ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (693ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (259ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (173ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1535 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.9 MB.
 System memory in use after: 72.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 2.652300 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.419700 ms  DeleteObjects: 0.057000 ms)
+Total: 2.623600 ms (FindLiveObjects: 0.138600 ms CreateObjectMapping: 0.041400 ms MarkObjects: 2.386400 ms  DeleteObjects: 0.056100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,105 +131,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Miasto/modularne ulice/stacja benz z podstawka.fbx
-  artifactKey: Guid(ecd6a6270332d3f48a19a41991149af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Miasto/modularne ulice/stacja benz z podstawka.fbx using Guid(ecd6a6270332d3f48a19a41991149af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0850d3c09f5aa458359914e49b0db8') in 0.610820 seconds 
+  path: Assets/Particles
+  artifactKey: Guid(66441f0e80710954f9cb05f24e978a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles using Guid(66441f0e80710954f9cb05f24e978a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0a9734108d4b5a9dbd217318cf16a6') in 0.010649 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 79.285920 seconds.
-  path: Assets/Miasto/modularne ulice/parking 1.fbx
-  artifactKey: Guid(fbd625bdb7d938b40a291493ff1f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Miasto/modularne ulice/parking 1.fbx using Guid(fbd625bdb7d938b40a291493ff1f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fea008e4d98160cd74914b71dbe2ff') in 0.023500 seconds 
+  Time since last request: 14.593843 seconds.
+  path: Assets/Particles/boom.png
+  artifactKey: Guid(33d15dd50abfb1a43a98704d91233786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/boom.png using Guid(33d15dd50abfb1a43a98704d91233786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0308c19f6236321c04275bf371c3ec7') in 0.052571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.677379 seconds.
-  path: Assets/Miasto/modularne ulice/podstawka.fbx
-  artifactKey: Guid(fbd625bdb7d938b40a291493ff1f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Miasto/modularne ulice/podstawka.fbx using Guid(fbd625bdb7d938b40a291493ff1f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8003e25fe8795ed388635010a3fa5c5b') in 0.045667 seconds 
+  Time since last request: 53.180594 seconds.
+  path: Assets/Particles/Wybuch.mat
+  artifactKey: Guid(5b051b5098340f842ab5d771ab6560a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Wybuch.mat using Guid(5b051b5098340f842ab5d771ab6560a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499353e949c593dc9e42844b247fe551') in 0.090010 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.270520 seconds.
-  path: Assets/Miasto/modularne ulice/parking.mat
-  artifactKey: Guid(2a2f191e975cbfb40917852afc494569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Miasto/modularne ulice/parking.mat using Guid(2a2f191e975cbfb40917852afc494569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f53349cf56d7aeab333fefb419eacd1') in 0.052582 seconds 
+  Time since last request: 3179.137356 seconds.
+  path: Assets/Particles/Eksplozja XS.prefab
+  artifactKey: Guid(3ba3c91cf0468f443a1123ae54aca322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Eksplozja XS.prefab using Guid(3ba3c91cf0468f443a1123ae54aca322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9b3d144ec3560149a10cc3fcaa6e7e') in 0.040160 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Miasto/modularne ulice/podstawka.fbx
-  artifactKey: Guid(fbd625bdb7d938b40a291493ff1f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Miasto/modularne ulice/podstawka.fbx using Guid(fbd625bdb7d938b40a291493ff1f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165e1ba1e879c79d0b80d0cd784ee0c4') in 0.042838 seconds 
+  Time since last request: 1.786190 seconds.
+  path: Assets/Particles/Eksplozja S.prefab
+  artifactKey: Guid(4b49e7f5d9c39e5459881eff9f977e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Eksplozja S.prefab using Guid(4b49e7f5d9c39e5459881eff9f977e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690c87f98b84f68de4d585e2855b93ef') in 0.018283 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.821324 seconds.
-  path: Assets/Prefabs/budynki/stacja benz.prefab
-  artifactKey: Guid(405fc83764612564eb6aa3db33639b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/budynki/stacja benz.prefab using Guid(405fc83764612564eb6aa3db33639b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9075395a501c3c1ce56e424e2a005a7') in 0.015921 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.386 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1387ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1149ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (404ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.1 MB.
-System memory in use after: 74.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2018.
-Total: 3.756200 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.105600 ms MarkObjects: 3.394900 ms  DeleteObjects: 0.031100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 1.582220 seconds.
+  path: Assets/Particles/Eksplozja M.prefab
+  artifactKey: Guid(7befa74bf11d5bc43ac662ad2e8ab19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Eksplozja M.prefab using Guid(7befa74bf11d5bc43ac662ad2e8ab19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bc12d1a64c6b8150e24a4094136b7d') in 0.016659 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 312.443916 seconds.
-  path: Assets/Prefabs/budynki/D_stacja bezynowa.prefab
-  artifactKey: Guid(65b6b3e861061a249bc9ca217a010bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/budynki/D_stacja bezynowa.prefab using Guid(65b6b3e861061a249bc9ca217a010bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eb5c3f0691359826c0061d3cdb7e6e') in 0.069334 seconds 
+  Time since last request: 1.415573 seconds.
+  path: Assets/Particles/Eksplozja L.prefab
+  artifactKey: Guid(f40f5a034c9e783468e5f2206f833c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Eksplozja L.prefab using Guid(f40f5a034c9e783468e5f2206f833c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de37ec7871cdc110bf212213b2ca8cef') in 0.014850 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.275342 seconds.
-  path: Assets/Prefabs/budynki/stacja benz podst.prefab
-  artifactKey: Guid(0a2ff8c904738c842b12f228081df1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/budynki/stacja benz podst.prefab using Guid(0a2ff8c904738c842b12f228081df1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18ddf9aff87417ada71752a872545a7') in 0.055117 seconds 
+  Time since last request: 1.405159 seconds.
+  path: Assets/Particles/Eksplozja stacja.prefab
+  artifactKey: Guid(b6f4d41aea880474ea15a374f4deedb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Eksplozja stacja.prefab using Guid(b6f4d41aea880474ea15a374f4deedb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530feb53d070da88c2a6019d00cc9934') in 0.017247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.400821 seconds.
+  path: Assets/Particles/Eksplozja samochód.prefab
+  artifactKey: Guid(36134fd1db3debf45ae5545f4c377919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Eksplozja samochód.prefab using Guid(36134fd1db3debf45ae5545f4c377919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012290d416e253db648455edc26c6489') in 0.014432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1267.670076 seconds.
+  path: Assets/Prefabs/wybuchy/Wybuch.mat
+  artifactKey: Guid(5b051b5098340f842ab5d771ab6560a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/wybuchy/Wybuch.mat using Guid(5b051b5098340f842ab5d771ab6560a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23991769b4473f280aacdf79abc1e64d') in 0.054557 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
