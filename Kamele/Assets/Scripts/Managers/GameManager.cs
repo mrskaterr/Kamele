@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public int idCounter=0;
     public static GameManager Instance;
     
     public event Action OnPlayButtonPressed;
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour
 
         [SerializeField]
         private List<ExplosivePrefab> explosivePrefabsList = new List<ExplosivePrefab>();
-        private List<GameObject> explosivesQueue = new List<GameObject>();
+        public List<GameObject> explosivesQueue = new List<GameObject>();
         
         private Dictionary<ExplosivesTypes, GameObject> explosivesPrefabs = new Dictionary<ExplosivesTypes, GameObject>();
         private Dictionary<ExplosivesTypes, int> explosivesQuantity = new Dictionary<ExplosivesTypes, int>
@@ -54,6 +55,14 @@ public class GameManager : MonoBehaviour
         currentExplosivePrefab = explosivesPrefabs[currentExplosiveType];
         currentGameState = States.PLANNING_PHASE;
     }
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.H))
+        {
+            explosivesQueue[0].GetComponent<Tnt>().Explode();
+            
+        }
+    }
 
     #region setters
 
@@ -78,6 +87,7 @@ public class GameManager : MonoBehaviour
 
     public void DecreaseQuantity()
     {
+        idCounter++;
         explosivesQuantity[currentExplosiveType]--;
         AddExplosiveToQue(currentExplosivePrefab);
     }
@@ -114,7 +124,7 @@ public class GameManager : MonoBehaviour
 
     public void HitBuilding(Collider collider)
     {
-        if (collider.gameObject.GetComponent<BuildingsHealthSystem>().GetHP() > 0)
+        if (collider.gameObject.GetComponent<BuildingsHealthSystem>()?.GetHP() > 0)
         {
             PointsManager.Instance.AddPoints(collider.GetComponent<Building>().GetPoints());
             HUDManager.Instance.UpdatePointsTMP(PointsManager.Instance.GetPoints());
@@ -137,13 +147,15 @@ public class GameManager : MonoBehaviour
 
     public bool CheckIfTntCanBePlaced() => (GetQuantity() > 0 && GetGameSate() == States.PLANNING_PHASE);
     
-    public void OnPlayButton()
+    public async void OnPlayButton()
     {
-        foreach (var element in explosivesQueue)
+        foreach (GameObject element in explosivesQueue)
         {
             element.GetComponent<Tnt>().Explode();
+
         }
     }
+
 
     public List<GameObject> GetExplosivesQue() => explosivesQueue;
     public States GetGameSate() => currentGameState;
