@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 50
   explosionForce: 2000
-  material: {fileID: 2100000, guid: 16ffa410bb9d15b47af70eac53eedc68, type: 2}
+  material: {fileID: 5431379621133034227, guid: 04952ed1f52b6ce4fa42b39213cd5b19, type: 3}
+  explosionFX: {fileID: 0}
   explosiveType: 2

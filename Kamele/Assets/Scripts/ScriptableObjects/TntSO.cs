@@ -8,8 +8,8 @@ public class TntSO : ScriptableObject
     public float radius;
     public float explosionForce;
 
-    [Header("GFX")] 
-    public Material material;
+    [Header("GFX")]
+    public GameObject explosionFX;
 
     [Header("Explosion strength")] 
     public ExplosivesTypes explosiveType;

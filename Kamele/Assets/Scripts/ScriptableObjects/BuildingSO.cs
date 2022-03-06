@@ -6,4 +6,5 @@ using UnityEngine;
 public class BuildingSO : ScriptableObject
 {
     public int pointsForDestruction;
+    public GameObject explosionFX;
 }
